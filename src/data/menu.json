@@ -1,0 +1,2270 @@
+[
+  {
+    "category": "KAHVALTI",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-21-at-19.16.46-1024x392.jpeg",
+    "items": [
+      {
+        "title": "Sucuklu Köy Menemeni",
+        "price": "300.00",
+        "description": "🥚 Köy Yumurtası 🍅 Köy Domatesi 🌶️ Köy Biberi 🧈 Tereyağı 🌭 Özel Kasap Sucuğu",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Köy Menemeni",
+        "price": "150.00",
+        "description": "🥚 Köy Yumurtası 🍅 Köy Domatesi 🌶️ Köy Biberi 🧈 Tereyağı",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Atıştırmalık Tabağı",
+        "price": "300.00",
+        "description": "🥟 Su Böreği 🔺 Muska Börek 🧀 Hellim Peyniri 🍟 Patates Kızartması",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Peynir Tabağı",
+        "price": "390.00",
+        "description": "🥒 SALATALIK 🍅 CHERRY DOMATES 🧀 ÇÖREK OTLU PEYNİR 🧀 ÖRGÜ PEYNİRİ 🧀 DİL PEYNİRİ 🧀 MARAŞ PEYNİRİ",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Serpme Kahvaltı 2 Kişilik",
+        "price": "1,500.00",
+        "description": "İçindekiler: ☕ Termos Çay 🥗 Zeytin Salatası 🥛 Tuzlu Yoğurt 🫒 Yeşil Zeytin 🫒 Siyah Zeytin 🧀 Peynir Tabağı 🍯…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Serpme Kahvaltı 3 Kişilik",
+        "price": "2,250.00",
+        "description": "İçindekiler: ☕ Termos Çay 🥗 Zeytin Salatası 🥛 Tuzlu Yoğurt 🫒 Yeşil Zeytin 🫒 Siyah Zeytin 🧀 Peynir Tabağı 🍯…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Serpme Kahvaltı 4 Kişilik",
+        "price": "3,000.00",
+        "description": "İçindekiler: ☕ Termos Çay 🥗 Zeytin Salatası 🥛 Tuzlu Yoğurt 🫒 Yeşil Zeytin 🫒 Siyah Zeytin 🧀 Peynir Tabağı 🍯…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kahvaltı Hızlı",
+        "price": "475.00",
+        "description": "İçindekiler: 🍅🧀 Domates Peynir Karışımı 🥛 Kaymak 🫒 Siyah Zeytin 🫒 Yeşil Zeytin 🥐 Sigara Böreği 🥩 Salam 🍳 Haşlanmış…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Börek Muska 4 Adet",
+        "price": "190.00",
+        "description": "İçindekiler: 🫓 Yufka 🥛 Ekşi Peynir Kreması 🧀 Mozzarella Peyniri",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Bal Kaymak",
+        "price": "160.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaymak Ekstra",
+        "price": "85.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Patates Kızartması",
+        "price": "160.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sucuklu Yumurta",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sade Yumurta",
+        "price": "130.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Yumurta Mozzarella Peynirli",
+        "price": "260.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kavurmalı Yumurta",
+        "price": "490.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Karışık Omlet",
+        "price": "510.00",
+        "description": "🥚 Köy Yumurtası 🌭 Özel Kasap Sucuk 🍄 Mantar 🥓 Salam 🧀 Mozzarella Peyniri 🧈 Tereyağı",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Haşlaanmış Yumurta",
+        "price": "25.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Yeşil Zeytin",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sucuk Tabağı",
+        "price": "390.00",
+        "description": "🌭 Özel Kasap Sucuk 🧅 Arpacık Soğan 🫑 Kapya Biber 🍅 Cherry Domates 🧈 Tereyağı",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Söğüş Tabağı",
+        "price": "130.00",
+        "description": "İçindekiler: 🥒 Salatalık 🍅 Domates Çeri",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Siyah Zeytin",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Peynir Hellim 4 Adet",
+        "price": "260.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      }
+    ]
+  },
+  {
+    "category": "YÖRESEL MUTFAK",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/yoresel-mutfak-1024x393.jpg",
+    "items": [
+      {
+        "title": "KİREMİTTE KAŞARLI MANTARLI TAVUK XXL",
+        "price": "1,290.00",
+        "description": "İÇİNDEKİLER; 🍗 Tavuk But 🍄 Mantar 🧀 Mozzarella Peyniri 🧈 Tereyağı 🧀 Taze Kaşar",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "KİREMİTTE KAŞARLI MANTARLI TAVUK",
+        "price": "640.00",
+        "description": "İÇİNDEKİLER; 🍗 Tavuk But 🍄 Mantar 🧀 Mozzarella Peyniri 🧈 Tereyağı 🧀 Taze Kaşar",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Grill",
+        "price": "3,250.00",
+        "description": "İçindekiler: 🥩 Adana Kebap 🥩 Emmoğlu Yöresel Kebap 🥩 Şaşlık Kebabı 🥩 Kuzu Şiş 🍗 Lübnan Tavuk Şiş 🥩 Kuzu…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ciğer Şiş",
+        "price": "455.00",
+        "description": "🥩 Dana ciğer 🧅🥗 Soğan salatası 🌯 Soslu lavaş ekmeği 🥣 Özel sos 🍅 Közlenmiş cherry domates 🫑 Közlenmiş biber…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Lahmacun Fındık",
+        "price": "150.00",
+        "description": "🥩 Dana ve Kuzu kıyma karışımı 🧅 Soğan 🍅 Domates 🫑 Biber",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/73-300x300.jpg"
+      },
+      {
+        "title": "Lahmacun Antep",
+        "price": "260.00",
+        "description": "🥩 Dana ve Kuzu kıyma karışımı 🧅 Soğan 🍅 Domates 🫑 Biber",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/74-300x300.jpg"
+      },
+      {
+        "title": "Lahmacun Antakya",
+        "price": "260.00",
+        "description": "İçindekiler: 🥩 Kıyma 🧅 Soğan 🍅 Domates 🫑 Biber",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/75-300x300.jpg"
+      },
+      {
+        "title": "Belen Tava",
+        "price": "640.00",
+        "description": "İçindekiler: 🥩 Dana Bonfile 🧅 Arpacık Soğan 🧄 Sarımsak 🫑 Çarliston Biber 🫑 Kırmızı Kapya Biber",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/4-300x300.jpg"
+      },
+      {
+        "title": "Mangal Köfte",
+        "price": "490.00",
+        "description": "İçindekiler: 🍟 Patates Kızartması Yöresel 🥩 Yöresel Kebap Kıyma Harcı 🫓 Ekmek Lavaş 🥫 Yöresel Labne Sosu 🍅 Domates Cherry…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Mix Grill",
+        "price": "1,625.00",
+        "description": "🌶️🥩 Adana kebap 🍢🐑 Kuzu şiş 🍢🍗 Lübnan tavuk şiş 🍖🐑 Kuzu pirzola",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Yöresel Kebap",
+        "price": "510.00",
+        "description": "🥩 Dana ve kuzu kıyma karışımı 🧅🥗 Soğan salatası 🍅 Közlenmiş cherry domates 🫑 Közlenmiş biber 🧅 Közlenmiş soğan",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Beyti Kebap",
+        "price": "585.00",
+        "description": "İçindekiler: 🍅 Domates Cherry 🫑 Kırmızı Biber 🧅 Arpacık Soğan 🥫 Özel Sos 🥩 Dana Kıyma",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/3-300x300.jpg"
+      },
+      {
+        "title": "Adana Kebap",
+        "price": "550.00",
+        "description": "🥩 Dana ve kuzu kıyma karışımı 🧅 Soğan 🍅 Domates 🫑 Biber",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/21-300x300.jpg"
+      },
+      {
+        "title": "Kuzu Pirzola",
+        "price": "1,625.00",
+        "description": "🍖🐑 Kuzu pirzola 🧅 Soğan 🍅 Cherry domates 🫑 Kırmızı biber 🧅 Arpacık soğan",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/10/15-300x300.jpg"
+      },
+      {
+        "title": "Kuzu Lokum",
+        "price": "1,300.00",
+        "description": "İçindekiler: 🥩 Kuzu Fileto 🧂 Özel Baharat Karışımı 🍅 Domates Cherry 🫑 Biber 🫑 Kırmızı Biber 🧅 Arpacık Soğan",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kuzu Şiş",
+        "price": "780.00",
+        "description": "İçindekiler: 🥩 Kuzu Şiş 🍅 Cherry Domates 🌶️ Acı Biber 🫑 Kırmızı Biber 🧅 Arpacık Soğan",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2024/10/95-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu Özel Kebap",
+        "price": "640.00",
+        "description": "İçindekiler: 🥜 Toz Antep Fıstığı 🥩 Dana Pastırma 🧀 Mozzarella Peyniri 🍅 Domates Cherry 🫑 Kapya Kırmızı",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2024/10/Emmoglu-300x300.jpg"
+      },
+      {
+        "title": "Şaşlık Kebabı Yöresel",
+        "price": "1,300.00",
+        "description": "İçindekiler: 🥩 Dana Bonfile 🥫 3 Çeşit Özel Sos 🧅 Kırmızı Soğan 🍅 Domates Cherry 🌶️ Kırmızı Acı Biber 🧅…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2024/10/82-300x300.jpg"
+      },
+      {
+        "title": "Tepsi Kebabı",
+        "price": "625.00",
+        "description": "İçindekiler: 🍅 Domates Cherry 🌶️ Acı Biber 🥩 Dana Kaburga",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kağıt Kebabı",
+        "price": "625.00",
+        "description": "İçindekiler: 🍅 Domates Cherry 🌶️ Acı Biber 🥩 Dana Kaburga",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/7-300x300.jpg"
+      },
+      {
+        "title": "Kuzu Küşleme",
+        "price": "1,690.00",
+        "description": "İçindekiler: 🥩 Kuzu Bonfile 🧅 Soğan Salatası 🫓 Soslu Lavaş Ekmeği 🥫 Özel Sos 🍅 Közlenmiş Cherry Domates 🫑 Közlenmiş…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Tavuk Şiş Lebanon",
+        "price": "360.00",
+        "description": "İçindekiler: 🍗 Tavuk Göğüs Fileto 🧅 Soğan Salatası 🫓 Soslu Lavaş Ekmeği 🥫 Özel Sos 🍅 Közlenmiş Cherry Domates 🫑…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/138-300x300.jpg"
+      },
+      {
+        "title": "Tavuk Kanat",
+        "price": "455.00",
+        "description": "İçindekiler: 🍗 Tavuk Kanat 🧅 Soğan Salatası 🍅 Közlenmiş Cherry Domates 🫑 Közlenmiş Biber 🧅 Közlenmiş Soğan",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kral Kebap Sade 220 gr.",
+        "price": "550.00",
+        "description": "🥩 Dana ve Kuzu kıyma 🫑 Kapya biber 🧅 Arpacık soğan 🫑 Kırmızı kapya biber 🌾 Susam 🧀 Kaşar peyniri…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/80-300x300.jpg"
+      },
+      {
+        "title": "Kral Kebap Sade 130 gr.",
+        "price": "325.00",
+        "description": "🥩 Dana kıyma 🫑 Kapya biber 🧅 Arpacık soğan 🫑 Kırmızı kapya biber 🌾 Susam 🧀 Kaşar peyniri 🍟 Çıtır…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/80-300x300.jpg"
+      },
+      {
+        "title": "Kral Kebap Kaşarlı Mantarlı 220 gr.",
+        "price": "715.00",
+        "description": "🥩 Dana ve Kuzu kıyma 🫑 Kapya biber 🧅 Arpacık soğan 🧀 Kaşar peyniri 🧀 Mozzarella peyniri 🍄 Mantar 🍟…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/80-300x300.jpg"
+      },
+      {
+        "title": "Kral Kebap Kaşarlı Mantarlı 130 gr.",
+        "price": "375.00",
+        "description": "🥩 Dana ve Kuzu kıyma 🫑 Kapya biber 🧅 Arpacık soğan 🧀 Kaşar peyniri 🧀 Mozzarella peyniri 🍄 Mantar 🍟…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/80-300x300.jpg"
+      },
+      {
+        "title": "Adana Dürüm Kebap",
+        "price": "325.00",
+        "description": "🥩 Dana ve Kuzu kıyma 🧅 Soğan 🍅 Domates",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/79-300x300.jpg"
+      },
+      {
+        "title": "Alinazik",
+        "price": "510.00",
+        "description": "İçindekiler: 🥛 Süzme Yoğurt 🍆 Patlıcan 🥩 Kuzu Fileto 🫑 Çarliston Biber 🫑 Kapya Biber",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Özel Meze",
+        "price": "325.00",
+        "description": "İçindekiler: 🌱 Nane 🧄 Sarımsak 🌶️ Tatlı Pul Biber 🫙 Kimyon 🥣 Humus 🥜 Ceviz 🌻 Çekirdek",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Tereyağlı Humus",
+        "price": "380.00",
+        "description": "İçindekiler: 🥣 Yöresel Humus Harcı 🥜 Çam Fıstığı 🧈 Tereyağı 🫓 Halep Ekmeği",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/60-300x300.jpg"
+      },
+      {
+        "title": "Atom Meze",
+        "price": "350.00",
+        "description": "İçindekiler: 🥛 Süzme Yoğurt 🌶️ Acı Biber",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Bomba Oruk",
+        "price": "150.00",
+        "description": "İçindekiler: 🌾 Bulgur Esmer / Beyaz İnce 🌶️ Baharat Karışık Yöresel İçin 🥜 Ceviz İçi 🫗 Yağ Frita 🥩 Kuzu…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/142-300x300.jpg"
+      },
+      {
+        "title": "Çiğ Köfte",
+        "price": "380.00",
+        "description": "İçindekiler: 🌾 Bulgur 🫙 Karabiber 🫙 Kimyon 🌶️ Özel Baharat Karışımı 🧅 Soğan 🥫 Salça 🥩 Dana Kıyma 🥜 Ceviz…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/78-300x300.jpg"
+      },
+      {
+        "title": "Kraliçe Meze",
+        "price": "650.00",
+        "description": "İçindekiler: 🥩 Dana Bonfile 🥣 Humus 🥜Kaju 🥜 Badem 🫑 Kapya Biber",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/61-300x300.jpg"
+      },
+      {
+        "title": "Pastırmalı Alinazik",
+        "price": "455.00",
+        "description": "İçindekiler: 🥛 Yoğurt Süzme 🍆 Patlıcan 🫙 Tahin 🥜 Ceviz İçi 🥩 Dana Pastırma 🫘 Nohut",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/76-300x300.jpg"
+      },
+      {
+        "title": "Humus",
+        "price": "235.00",
+        "description": "🧆 Nohut 🥣 Tahin",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/57-300x300.jpg"
+      },
+      {
+        "title": "Lübnan Cevizli",
+        "price": "235.00",
+        "description": "🫑 Biber 🌰 Ceviz 🍅 Salça 🥣 Tahin",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-06-13-at-18.41.29-300x300.jpeg"
+      },
+      {
+        "title": "Abagannuş",
+        "price": "235.00",
+        "description": "🌶️ Acı biber 🫑 Biber 🍆 Patlıcan 🍅 Domates",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-06-13-at-18.22.15-300x300.jpeg"
+      },
+      {
+        "title": "Pembe Sultan",
+        "price": "235.00",
+        "description": "🥣 Yoğurt 🫜 Pancar 🌰 Ceviz 🌿 Dereotu",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-06-13-at-18.18.46-300x300.jpeg"
+      },
+      {
+        "title": "Mutebbel",
+        "price": "235.00",
+        "description": "🥣 Süzme yoğurt 🍆 Patlıcan ❤️ Nar",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/06/58-300x300.jpg"
+      },
+      {
+        "title": "Biber Yoğurtlama",
+        "price": "235.00",
+        "description": "🥣 Süzme yoğurt 🫑 Kapya biber",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/63-300x300.jpg"
+      },
+      {
+        "title": "Süzme Yoğurt",
+        "price": "235.00",
+        "description": "🥣 Yoğurt",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/128-300x300.jpg"
+      },
+      {
+        "title": "Cacık",
+        "price": "235.00",
+        "description": "🥣 Süzme yoğurt 🥒 Salatalık 🌿 Nane",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/129-300x300.jpg"
+      },
+      {
+        "title": "Ordövr",
+        "price": "455.00",
+        "description": "GÜNÜN MEZELERİNDEN KARIŞIK MEZE TABAĞI",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/81-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu Fettuş Salata",
+        "price": "390.00",
+        "description": "İçindekiler: 🍅 Domates 🌿 Maydanoz 🌱 Nane 🥬 Marul 🫖 Nar 🌿 Kekik 🌿 Semiz Otu",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/64-300x300.jpg"
+      },
+      {
+        "title": "Mevsim Salatası Double",
+        "price": "370.00",
+        "description": "İçindekiler: 🥒 Salatalık 🍅 Domates 🥬 Kırmızı Lahana 🥬 Marul 🥕 Havuç 🌱 Nane",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/66-300x300.jpg"
+      },
+      {
+        "title": "Çoban Salatası Double",
+        "price": "290.00",
+        "description": "İçindekiler: 🍅 Domates 🥒 Salatalık 🌱 Nane 🧅 Soğan",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/65-300x300.jpg"
+      },
+      {
+        "title": "Gavur Dağı Salatası Double",
+        "price": "390.00",
+        "description": "İçindekiler: 🍅 Domates 🥒 Salatalık 🧅 Soğan 🥜 Ceviz 🧀 Peynir",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/67-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu Fettuş Salatası Double",
+        "price": "585.00",
+        "description": "İçindekiler: 🍅 Domates 🌿 Maydanoz 🌱 Nane 🥬 Marul 🫖 Nar 🌿 Kekik İçindekiler: 🍅 Domates 🌿 Maydanoz 🌱 Nane…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/64-300x300.jpg"
+      },
+      {
+        "title": "Mevsim Salata",
+        "price": "235.00",
+        "description": "İçindekiler: 🥒 Salatalık 🍅 Domates 🥬 Kırmızı Lahana 🥬 Marul 🥕 Havuç 🌱 Nane",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/66-300x300.jpg"
+      },
+      {
+        "title": "Çoban Salata",
+        "price": "195.00",
+        "description": "İçindekiler: 🍅 Domates 🥒 Salatalık 🌱 Nane 🧅 Soğan",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/65-300x300.jpg"
+      },
+      {
+        "title": "Gavurdağı Salata",
+        "price": "260.00",
+        "description": "İçindekiler: 🍅 Domates 🥒 Salatalık 🧅 Soğan 🥜 Ceviz 🧀 Peynir",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/67-300x300.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DÜNYA MUTFAĞI",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/dunya-mutfagi-1024x393.jpg",
+    "items": [
+      {
+        "title": "CHICKEN TENDERS",
+        "price": "390.00",
+        "description": "🍗 Tavuk göğsü🍟 Patates Kızartması",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/103-300x300.jpg"
+      },
+      {
+        "title": "Quesdilla Bonfila",
+        "price": "940.00",
+        "description": "🥩 Dana Bonfile🫑 Samandağ Biberi🌶️ Kapya Biber🤎 Soya Sosu🧀 Cheddar Peyniri🫘 Meksika Fasulyesi🫓 Tortilla Ekmeği🧀 Mozzarella Peyniri🌶️ Jalapeño Turşu Biberi🥒…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/137-300x300.jpg"
+      },
+      {
+        "title": "Quesdilla Tavuk",
+        "price": "590.00",
+        "description": "🍗 Tavuk Göğsü🧀 Cheddar Peyniri🧀 Mozzarella Peyniri🌶️ Kapya Biber🫑 Çarliston Biber🌶️ Samandağ Biberi🫘 Meksika Fasulyesi🍯 Özel Sos🌶️ Jalapeño Biberi🥗 Salata…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/140-300x300.jpg"
+      },
+      {
+        "title": "Bodrum Çökertme Kebabı Beef",
+        "price": "760.00",
+        "description": "🍟 Kibrit Patates🍅 Cherry Domates🥫 Napolitan Sos🥛 Süzme Yoğurt🧈 Blok Tereyağı🥩 Dana Bonfile🫑 Çarliston Biber",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/70-300x300.jpg"
+      },
+      {
+        "title": "Bodrum Çökertme Kebabı Chicken",
+        "price": "450.00",
+        "description": "🍗 Tavuk Göğsü🥛 Yoğurt🫑 Çarliston Biber🍅 Cherry Domates🍟 Kibrit Patates🍅 Napolitan Sos",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/18-300x300.jpg"
+      },
+      {
+        "title": "Burrito Beef",
+        "price": "900.00",
+        "description": "🥩 Dana Bonfile🫑 Kapya Biber🫑 Çarliston Biber🍄 Mantar🧅 Arpacık Soğan🫘 Meksika Fasulyesi🥢 Soya Sosu🧀 Cheddar Sos🧀 Mozzarella Peyniri🍄 Kremalı Mantarlı…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/68-300x300.jpg"
+      },
+      {
+        "title": "Burrito Chicken",
+        "price": "550.00",
+        "description": "🍗 Tavuk göğsü 🫑 Kapya biber 🫑 Çarliston biber 🍄 Mantar 🧅 Arpacık soğan 🫘 Meksika fasulyesi 🥢 Soya sosu…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/42-300x300.jpg"
+      },
+      {
+        "title": "Cafede Paris Soslu Tavuk",
+        "price": "490.00",
+        "description": "🍗 Tavuk Göğsü🥣 Özel Sos🌿 Özel Karışım Baharat🥗 Mevsim Salata🍟 Çıtır Patates ile Servis Edilir",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/43-300x300.jpg"
+      },
+      {
+        "title": "Chef's Lokum",
+        "price": "1,430.00",
+        "description": "🥩 Dana bonfile 🥣 Özel sos 🥬 Brüksel lahanası 🥦 Karnabahar 🥦 Brokoli",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Et Tatlı Ekşi",
+        "price": "760.00",
+        "description": "🥩 Dana Bonfile🫑 Kırmızı Kapya Biber🫑 Çarliston Biber🍄 Mantar🌾 Susam🌶️🥣 Özel Tatlı Acı Sos🍟 Çıtır Patates🥗 Salata ile Servis Edilir",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/87-300x300.jpg"
+      },
+      {
+        "title": "Kremalı Mantarlı Patates",
+        "price": "340.00",
+        "description": "🍄 Mantar 🌿 Kekik 🥔 Patates 🥛 Krema",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/45-300x300.jpg"
+      },
+      {
+        "title": "Arjantin Lokum",
+        "price": "1,105.00",
+        "description": "🥩 Dana Bonfile🧀 Cheddar Peyniri🥦 Brokoli🥬 Karnabahar🥬 Brüksel Lahanası🌶️ Acı Biber Reçeli🍟 Çıtır Patates ile Servis Edilir",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/30-300x300.jpg"
+      },
+      {
+        "title": "Steak Fajita",
+        "price": "760.00",
+        "description": "🥩 Dana Bonfile🌶️ Acı Biber🫑 Çarliston Biber🫑 Kapya Biber🧅 Arpacık Soğan🫘 Meksika Fasulyesi🌮 Tortilla Ekmeği🥫 3 Çeşit Sos🥗 Salata ile…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Taco Beef",
+        "price": "995.00",
+        "description": "🥩 Dana Bonfile🧀 Cheddar Peyniri🌶️ Acı Biber🥣 Özel Sos🫑 Kırmızı Kapya Biber🍄 Mantar🌶️ Jalapeño Biberi🌽 Mısır🫘 Meksika Fasulyesi🥫 2 Adet…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/17-300x300.jpg"
+      },
+      {
+        "title": "Tavuk Fajita Izgara",
+        "price": "390.00",
+        "description": "🍗 Tavuk Göğsü🌶️ Acı Biber🫑 Çarliston Biber🫑 Kapya Biber🧅 Arpacık Soğan🫘 Meksika Fasulyesi🥢 Soya Sosu🫓 Tortilla Ekmeği🥫 3 Çeşit Sos🥗…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Tavuk Güveç",
+        "price": "490.00",
+        "description": "🍗 Tavuk Göğsü🫑 Çarliston Biber🫑 Kırmızı Kapya Biber🍄 Mantar🧀 Mozzarella Peyniri🥗 Salata ile Servis Edilir",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Köri Soslu Tavuk",
+        "price": "560.00",
+        "description": "🍗 Tavuk Göğsü🍄 Mantar🌿 Köri🫑 Kapya Biber🫑 Çarliston Biber🫑 Biber🍟 Patates Kızartması",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/132-300x300.jpg"
+      },
+      {
+        "title": "Tavuk Külbastı",
+        "price": "390.00",
+        "description": "🍗 Tavuk Göğsü🧀 Parmesan Peyniri🍅 Cherry Domates🫑 Çarliston Biber🍟 Patates Kızartması🥗 Salata",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/11-300x300.jpg"
+      },
+      {
+        "title": "Louısana Soslu Tavuk",
+        "price": "450.00",
+        "description": "🍗 Tavuk Göğsü🫑 Biber🍄 Mantar🥣 Louisiana Sos🌶️ Yeşil Samandağ Biberi🥗 Salata🍟 Patates Kızartması",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Tavuk Napolitan",
+        "price": "380.00",
+        "description": "🍗🔥 Izgarada Pişen Tavuk Göğsü🥣 Özel Sos🥗 Salata🍟 Patates Kızartması",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Tavuk Schnitzel",
+        "price": "510.00",
+        "description": "🍗 Tavuk Göğsü🥣 Özel Tavuk Sosu🍟 Patates Kızartması🥗 Salata",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/101-300x300.jpg"
+      },
+      {
+        "title": "Dağ Mantarlı Tavuk Sote",
+        "price": "470.00",
+        "description": "🍗 Tavuk Göğsü🌿 Kekik🍄 Dağ Mantarı🍟 Patates Kızartması🥗 Salata",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/135-300x300.jpg"
+      },
+      {
+        "title": "Tatlı Ekşi Tavuk",
+        "price": "380.00",
+        "description": "🍗 Tavuk göğsü🫑 Biber🍄 Mantar🌾 Susam🥣 Özel sos🥔 Patates 🥗 Salata 🌶️🍯 Özel sweet chili sos",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/133-300x300.jpg"
+      },
+      {
+        "title": "Wrap Beef",
+        "price": "590.00",
+        "description": "🥩 Dana bonfile 🥣 Özel sos 🧀 Mozzarella peyniri🧀 Cheddar sos🫑 Biber 🥗 Salata 🥔 Patates 🧅 Karamelize Soğan",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Wrap Çıtır",
+        "price": "390.00",
+        "description": "🍗 Tavuk göğsü 🫑 Biber 🧅 Karamelize soğan 🧀 Mozzarella peyniri 🧀 Cheddar 🥔 Patates 🥗 Salata 🥣 Labne 🥣…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/40-300x300.jpg"
+      },
+      {
+        "title": "Makarna Arabiata",
+        "price": "250.00",
+        "description": "🌶️ Özel acı sos 🌿 Pesto sos 🧀 Parmesan peyniri 🍝 Napolitan Sos",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Makarna Polo",
+        "price": "340.00",
+        "description": "🍗 Tavuk göğsü 🍄 Mantar 🥕🌽 Sebzeli çeşni 🌿 Köri 🧀 Parmesan peyniri",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/34-300x300.jpg"
+      },
+      {
+        "title": "Makarna Spagetti Bolonez",
+        "price": "380.00",
+        "description": "🥩 Dana Kıyma 🍅 Napolitan sos 🧀 Parmesan peyniri",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/36-300x300.jpg"
+      },
+      {
+        "title": "Makarna Alfredo",
+        "price": "470.00",
+        "description": "İçindekiler: 🍗 Tavuk göğsü 🍄 Mantar 🌿 Pesto 🧀 Parmesan",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/37-300x300.jpg"
+      },
+      {
+        "title": "GREEN SALATA",
+        "price": "255.00",
+        "description": "🥬 Göbek Marul🍅 Cherry Domates🧂 Sumak🧀 Peynir",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Crispy Salata",
+        "price": "400.00",
+        "description": "İçindekiler: 🥬 Marul Atom 🍅 Domates 🍗 Çıtır Tavuk 🥫 Özel Sos 🌱 Beyaz Susam",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/5-300x300.jpg"
+      },
+      {
+        "title": "Greek Salata",
+        "price": "360.00",
+        "description": "🥬 Marul Atom🧀 Maraş Peyniri🧀 Çörek Otlu Peynir🧀 Burgu Peynir🍅 Domates🫒 Yeşil Zeytin",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Salata Beef Sezar",
+        "price": "790.00",
+        "description": "🥩 Dana Bonfile 🌽 Mısır 🧀 Parmesan Peyniri 🥬 Marul Atom 🍅 Domates 🥫 Özel Sos",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Salata Chicken Sezar",
+        "price": "510.00",
+        "description": "İçindekiler: 🥬 Marul Atom 🍗 Tavuk Göğüs 🌽 Mısır 🥫 Özel Sos 🧀 Parmesan Peyniri 🍅 Cherry Domates 🍞 Kızarmış…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/26-300x300.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Hamburger",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-09-at-13.47.08-1-1024x392.jpeg",
+    "items": [
+      {
+        "title": "HAMBURGER CHEESE BEEF",
+        "price": "490.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🥩 Özel dana burger köftesi Özel chedar sosu 🥬 Akdeniz yeşilliği 🍅 Domates 🥒…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/124-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER MUSHROOM BEEF",
+        "price": "390.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🥩 Özel dana burger köftesi 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman turşusu Özel…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/127-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER CLASSICO BEEF",
+        "price": "390.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🥩 Özel dana burger köftesi 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman turşusu 🍟🧀…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/122-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER ÜÇLÜ MİNİ BEEF",
+        "price": "450.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🥩 Özel dana burger köftesi 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman turşusu 🍟🧀…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/105-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER HARDZEN BEEF",
+        "price": "450.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🥩 Özel dana burger köftesi 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman turşusu 🫚…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "HAMBURGER TARTAR BEEF",
+        "price": "450.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🥩 Özel dana burger köftesi 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman turşusu 🥣…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/107-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER ROAST BEEF",
+        "price": "850.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🔥 Izgara dana burger köftesi 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman turşusu 🧀…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/109-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER KÖZLÜ BEEF",
+        "price": "490.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🥩 Özel dana burger köftesi 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman turşusu 🧀…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/111-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER SAMANDAĞ BEEF",
+        "price": "490.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🥩 Özel dana burger köftesi 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman turşusu 🌶️…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/113-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER CHEESE CHICKEN",
+        "price": "390.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti Özel olarak hazırlanmış chedar sos 🥬 Akdeniz…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/125-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER MUSHROOM CHICKEN",
+        "price": "290.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/126-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER CLASSICO CHICKEN",
+        "price": "290.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/123-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER ÜÇLÜ MİNİ CHICKEN",
+        "price": "390.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/106-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER HARDZEN CHICKEN",
+        "price": "390.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "HAMBURGER TARTAR CHICKEN",
+        "price": "390.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/108-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER CHICKEN TENDERS",
+        "price": "650.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/110-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER KÖZLÜ CHICKEN",
+        "price": "370.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/112-300x300.jpg"
+      },
+      {
+        "title": "HAMBURGER SAMANDAĞ CHICKEN",
+        "price": "390.00",
+        "description": "🍞 Tereyağı ile kızarmış burger ekmeği 🍗 Özel olarak marine edilmiş tavuk eti 🥬 Akdeniz yeşilliği 🍅 Domates 🥒 Alman…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/114-300x300.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Pizza",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-09-at-13.47.06-1024x392.jpeg",
+    "items": [
+      {
+        "title": "Pizza Tavuklu Ballı Hardallı Büyük Boy",
+        "price": "640.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🧀 Mozzarella Peyniri 🍗 Tavuk Döner 🫒 Dilimli Siyah Zeytin 🍯 Ballı Hardal",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/96-300x300.jpg"
+      },
+      {
+        "title": "Pizza Tavuklu Ballı Hardallı Orta Boy",
+        "price": "380.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🧀 Mozzarella Peyniri 🍗 Tavuk Döner 🫒 Dilimli Siyah Zeytin 🍯 Ballı Hardal",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/96-300x300.jpg"
+      },
+      {
+        "title": "Pizza Tavuklu Büyük Boy",
+        "price": "510.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🍗 Tavuk Döner 🌽 Mısır 🫑 Yeşil Samandağ Biberi 🥣…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/136-300x300.jpg"
+      },
+      {
+        "title": "Pizza Tavuklu Orta Boy",
+        "price": "300.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🍗 Tavuk Döner 🌽 Mısır 🫑 Yeşil Samandağ Biberi 🥣…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/136-300x300.jpg"
+      },
+      {
+        "title": "Pizza Roast Beef Büyük Boy",
+        "price": "760.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🥩 Dana Antrikot 🍅 Cherry Domates 🧀 Parmesan Grana Padano…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/134-300x300.jpg"
+      },
+      {
+        "title": "Pizza Roast Beef Orta Boy",
+        "price": "385.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🥩 Dana Antrikot 🍅 Cherry Domates 🧀 Parmesan Grana Padano…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/134-300x300.jpg"
+      },
+      {
+        "title": "Pizza Emmoğlu Büyük Boy",
+        "price": "760.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🥩 Hindi Sosis 🥩 Hindi Salam 🥩 Sucuk 🍄 Kültür…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/97-300x300.jpg"
+      },
+      {
+        "title": "Pizza Emmoğlu Orta Boy",
+        "price": "420.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🥩 Hindi Sosis 🥩 Hindi Salam 🥩 Sucuk 🍄 Kültür…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/97-300x300.jpg"
+      },
+      {
+        "title": "Pizza Tonbalıklı Büyük Boy",
+        "price": "510.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Napolitan Sos 🧀 Mozzarella Peyniri 🐟 Ton Balığı 🧅 Arpacık Soğan 🌽 Mısır",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Pizza Tonbalıklı Orta Boy",
+        "price": "380.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Napolitan Sos 🧀 Mozzarella Peyniri 🐟 Ton Balığı 🧅 Arpacık Soğan 🌽 Mısır",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Pizza Şarküteri Büyük Boy",
+        "price": "845.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🧀 Cheddar Peyniri 🥩 Kasap Sucuk 🥩 Blok Kavurma 🍄…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/161-300x300.jpg"
+      },
+      {
+        "title": "Pizza Şarküteri Orta Boy",
+        "price": "510.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🧀 Cheddar Peyniri 🥩 Kasap Sucuk 🥩 Blok Kavurma 🍄…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/161-300x300.jpg"
+      },
+      {
+        "title": "Pizza Emmoğlu Acı Sever Büyük Boy",
+        "price": "715.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🧀 Cheddar Peyniri 🍄 Kültür Mantarı 🫑 Yeşil Samandağ Biberi…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/165-300x300.jpg"
+      },
+      {
+        "title": "Pizza Emmoğlu Acı Sever Orta Boy",
+        "price": "510.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🧀 Cheddar Peyniri 🍄 Kültür Mantarı 🫑 Yeşil Samandağ Biberi…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/165-300x300.jpg"
+      },
+      {
+        "title": "Pizza Vejeteryan Büyük Boy",
+        "price": "510.00",
+        "description": "İçindekiler 🍕 Pizza Hamuru 🧀 Peynir Mozzarella Pizza İçin 🌶️ Biber Kapya Kırmızı 🫑 Biber Çarliston 🍄 Mantar Kültür 🌽…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/91-300x300.jpg"
+      },
+      {
+        "title": "Pizza Vejeteryan Orta Boy",
+        "price": "300.00",
+        "description": "İçindekiler 🍕 Pizza Hamuru 🧀 Peynir Mozzarella Pizza İçin 🌶️ Biber Kapya Kırmızı 🫑 Biber Çarliston 🍄 Mantar Kültür 🌽…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/91-300x300.jpg"
+      },
+      {
+        "title": "Pizza Beef Meksika Büyük Boy",
+        "price": "1,025.00",
+        "description": "İçindekiler: 🥩 Dana Bonfile 🧀 Peynir Mozzarella 🍄 Mantar Kültür 🌶️ Turşu Biber Jalapeno 🥣 Meksika Sosu 🍞 Pizza Hamuru",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/84-300x300.jpg"
+      },
+      {
+        "title": "Pizza Beef Meksika Orta Boy",
+        "price": "635.00",
+        "description": "İçindekiler: 🥩 Dana Bonfile 🧀 Peynir Mozzarella 🍄 Mantar Kültür 🌶️ Turşu Biber Jalapeno 🥣 Meksika Sosu 🍞 Pizza Hamuru",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/84-300x300.jpg"
+      },
+      {
+        "title": "Pizza Margarita Büyük Boy",
+        "price": "510.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🍅 Domates 🧀 Parmesan Grana Padano Peyniri",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Pizza Margarita Orta Boy",
+        "price": "380.00",
+        "description": "İçindekiler: 🍞 Pizza Hamuru 🍅 Sos Napolitan 🧀 Mozzarella Peyniri 🍅 Domates 🧀 Parmesan Grana Padano Peyniri",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Pizza Çıtır Büyük Boy",
+        "price": "510.00",
+        "description": "İçindekiler 🍅 Sos Napolitan 🧀 Peynir Mozzarella Pizza İçin 🍗 Çıtır Tavuk Sosu 🧅 Karamelize Soğan 🌶️ Turşu Biber Jalapeno…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Pizza Çıtır Orta Boy",
+        "price": "380.00",
+        "description": "İçindekiler 🍅 Sos Napolitan 🧀 Peynir Mozzarella Pizza İçin 🍗 Çıtır Tavuk Sosu 🧅 Karamelize Soğan 🌶️ Turşu Biber Jalapeno…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Pepperoni Pizza Büyük Boy",
+        "price": "640.00",
+        "description": "İçindekiler 🍅 Sos Napolitan 🌶️ Turşu Biber Jalapeno 🧀 Peynir Mozzarella Pizza İçin 🍕 Pizza Hamuru 🍕 Sucuk Dilimli Kalın",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Pepperoni Pizza Orta Boy",
+        "price": "490.00",
+        "description": "İçindekiler 🍅 Sos Napolitan 🌶️ Turşu Biber Jalapeno 🧀 Peynir Mozzarella Pizza İçin 🍕 Pizza Hamuru 🍕 Sucuk Dilimli Kalın",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      }
+    ]
+  },
+  {
+    "category": "Baklava Kg",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-09-at-13.47.07-1024x392.jpeg",
+    "items": [
+      {
+        "title": "Baklava Maraş Sarma Kg.",
+        "price": "2,200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistikli-Maras-Sarmasi-resim-106.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Ballı Börek",
+        "price": "1,200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistikli-Balli-Borek-resim-115.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Basma Sarı",
+        "price": "1,800.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistikli-Basma-Kadayif-resim-112.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Basma Yeşil",
+        "price": "1,800.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistikli-Basma-Kadayif-Yesil-resim-113.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Dolama",
+        "price": "2,500.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistikli-Dolama-Sarma-resim-109.jpg-2-300x300.webp"
+      },
+      {
+        "title": "Baklava Bülbül Yuvası",
+        "price": "1,200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistikli-Bulbul-Yuvasi-resim-114.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Cevizli",
+        "price": "1,500.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Cevizli-Baklava-resim-116.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Cevizli Bülbül",
+        "price": "1,200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Cevizli-Bulbul-Yuvasi-resim-117.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Fıstık Ezme",
+        "price": "2,500.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistik-Ezmesi-resim-110.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Havuç Dilimi",
+        "price": "2,100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Havuc-Dilimi-Fistikli-Baklava-resim-104.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Midye",
+        "price": "2,300.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistikli-Midye-Baklava-resim-107.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Mor Gelincik",
+        "price": "2,200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/mor-baklava-300x300.jpg"
+      },
+      {
+        "title": "Baklava Mozaik",
+        "price": "1,800.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistik-Mozaik-Baklava-resim-111.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Muska",
+        "price": "2,500.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/Fistikli-Muska-Dilimi-resim-108.jpg-300x300.webp"
+      },
+      {
+        "title": "Baklava Normal",
+        "price": "1,800.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2024/09/Klasik-Fistikli-Baklava-resim-1.jpg-300x300.webp"
+      },
+      {
+        "title": "Paket Baklava Özel Kg.",
+        "price": "2,200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/Ozel-Kare-Fistikli-Baklava-resim-102.jpg-300x300.webp"
+      },
+      {
+        "title": "Paket Baklava Şöbiyet Kg.",
+        "price": "2,300.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/Ozel-Fistikli-Sobiyet-resim-105.jpg-300x300.webp"
+      },
+      {
+        "title": "Paket Baklava Soğuk Çikolatalı Kg.",
+        "price": "1,500.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/Kakaolu-Soguk-Baklava-resim-119.jpg-300x300.webp"
+      },
+      {
+        "title": "Paket Baklava Soğuk Fıstıklı Kg.",
+        "price": "1,800.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/Fistikli-Soguk-Baklava-resim-118.jpg-300x300.webp"
+      },
+      {
+        "title": "Paket Baklava Tam Kuru Kg.",
+        "price": "1,800.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/Fistikli-Kuru-Bakvala-resim-103.jpg-300x300.webp"
+      }
+    ]
+  },
+  {
+    "category": "Tatlılar",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-09-at-13.47.07-1-1-1024x392.jpeg",
+    "items": [
+      {
+        "title": "Bardak Waffle",
+        "price": "340.00",
+        "description": "İçindekiler: 🍌 Muz 🍓 Çilek 🤍 Beyaz Çikolata 🤎 Sütlü Çikolata 🖤 Bitter Çikolata",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Şef Star Waffle",
+        "price": "425.00",
+        "description": "İÇİNDEKİLER 🍌 Muz 🍓 Çilek 🍍 Ananas ⚪ Beyaz Çikolata 🍫 Antep Fıstıklı Çikolata 🥜 Antep Fıstığı Toz 🍨 Dondurma",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/150-300x300.jpg"
+      },
+      {
+        "title": "BUBBLE WAFFLE",
+        "price": "390.00",
+        "description": "İÇİNDEKİLER 🍌 Muz 🍓 Çilek 🍫 Sütlü Çikolata 🍓 Çilek Sosu 🥜 Antep Fıstığı Toz 🧇 Waffle Hamuru",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2023/08/156-300x300.jpg"
+      },
+      {
+        "title": "Marshmallow Tabağı",
+        "price": "450.00",
+        "description": "İÇİNDEKİLER 🍓 Çilek ☁️ Marshmallow 🧇 Waffle Hamuru 🍫 Sütlü Çikolata",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Stick Waffle",
+        "price": "400.00",
+        "description": "İÇİNDEKİLER 🍌 Muz 🍓 Çilek 🍫 Sutlu Cikolata ⚪ Beyaz Çikolata ⬛ Bitter Çikolata 🥜 Toz Antep Fıstığı",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Kids Waffle",
+        "price": "350.00",
+        "description": "🥛 Sütlü Çikolata 🍓 Çilek 🍌 Muz 🧇 Waffle Hamuru 🍋 Limonata ile servis edilir",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/151-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu King Waffle",
+        "price": "650.00",
+        "description": "🍫 Beyaz Çikolata 🍓 Çilek 🍌 Muz 🧇 Waffle Hamuru 🥜 Antep Fıstıklı Çikolata 🍪 Çikolata Parçacıkları 🟢 Toz Antep…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Papatya Waffle",
+        "price": "390.00",
+        "description": "İÇİNDEKİLER 🍌 Muz 🍓 Çilek ⚪ Beyaz Çikolata 🍫 Sütlü Çikolata ⬛ Bitter Çikolata 🥜 Antep Fıstığı 🧇 Waffle Hamuru",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/147-300x300.jpg"
+      },
+      {
+        "title": "Lotuslu San Sebastian",
+        "price": "375.00",
+        "description": "🥣 Ekşi Peynir Kreması 🍬 Şeker 🥚 Yumurta 🌸 Vanilin 🌾 Nişasta 🍪 Lotus Bisküvi 🍯 Lotus Ezmesi",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/159-300x300.jpg"
+      },
+      {
+        "title": "Kalpli Tabak Waffle",
+        "price": "420.00",
+        "description": "🍌 Muz 🍓 Çilek 🍍 Ananas 🍫 Sütlü Çikolata 🤎 Bitter Çikolata 🧇 Waffle Hamuru",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/148-300x300.jpg"
+      },
+      {
+        "title": "Bardak Waffle",
+        "price": "290.00",
+        "description": "İçindekiler: 🍓 Çilek 🍌 Muz 🍫 Sütlü Çikolata 🧇 Waffle Hamuru 🟢 Toz Antep Fıstığı 🍓 Çilek Sosu",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "San Sebastian",
+        "price": "325.00",
+        "description": "🥣 Ekşi Peynir Kreması 🍬 Şeker 🥚 Yumurta 🌸 Vanilin 🌾 Nişasta",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/158-300x300.jpg"
+      },
+      {
+        "title": "Waffle Lotus",
+        "price": "425.00",
+        "description": "🍌 Muz 🍓 Çilek 🍫 Sütlü Çikolata 🧇 Waffle Hamuru 🍪 Lotus Bisküvi 🍯 Lotus Ezmesi",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Ballı Waffle",
+        "price": "510.00",
+        "description": "🍓 Çilek 🍌 Muz 🍫 Sütlü Çikolata 🧇 Waffle Hamuru 🟢 Toz Antep Fıstığı 🍪 Lotus Bisküvi 🍯 Lotus Ezmesi",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu İncisi Waffle",
+        "price": "520.00",
+        "description": "🍓 Çilek 🍌 Muz 🍫 Sütlü Çikolata 🧇 Waffle Hamuru 🟢 Toz Antep Fıstığı 🍦 Dondurma 🥜 Antep Fıstıklı Çikolata…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/160-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu Special Waffle",
+        "price": "520.00",
+        "description": "İçindekiler: 🍓 Çilek 🍌 Muz 🍍 Ananas 🍫 Sütlü Çikolata 🤎 Bitter Çikolata 🧇 Waffle Hamuru 🟢 Toz Antep Fıstığı…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2023/08/157-300x300.jpg"
+      },
+      {
+        "title": "Soğuk Fıstıklı Künefe",
+        "price": "450.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Hasır Kaymaklı Künefe",
+        "price": "450.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2023/08/146-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu Fıstıkzade",
+        "price": "650.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2025/07/144-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu Hasır Fıstıklı Künefe",
+        "price": "450.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2023/08/83-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu Çıtır Künefe",
+        "price": "450.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2023/08/100-300x300.jpg"
+      },
+      {
+        "title": "Peynirli Künefe",
+        "price": "350.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2023/08/85-300x300.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Patisserie",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-09-at-13.47.09-1-1024x392.jpeg",
+    "items": [
+      {
+        "title": "Bademli Kurabiye",
+        "price": "1,200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sade Kurabiye",
+        "price": "900.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Fıstıklı Kurabiye",
+        "price": "1,800.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Antep Fıstığı Kabuklu",
+        "price": "1,800.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Paket Kömbe Cevizli",
+        "price": "845.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/08/153-300x300.jpg"
+      },
+      {
+        "title": "Paket Kömbe Fıstıklı Kg.",
+        "price": "1,350.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/08/152-300x300.jpg"
+      },
+      {
+        "title": "Paket Kömbe Hurmalı Kg.",
+        "price": "845.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/154-300x300.jpg"
+      },
+      {
+        "title": "Paket Kömbe sade Kg",
+        "price": "675.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/155-300x300.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Simit&Poğaça",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/simit-ve-poaca-1024x393.jpg",
+    "items": [
+      {
+        "title": "Krem Peynirli Açma",
+        "price": "70.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Domatesli Simit",
+        "price": "120.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Domatesli Simit",
+        "price": "80.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Tereyağlı Simit",
+        "price": "60.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sade Simit",
+        "price": "35.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Simit",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Simit Antakya",
+        "price": "25.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sandviç Soğuk",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sakallı Poğaça",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sade Poğaça",
+        "price": "40.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Patatesli Poğaça",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Zeytinli Poğaça Mini",
+        "price": "25.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Zeytinli Poğaça",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Susamlı Poğaça Mini",
+        "price": "25.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Peynirli Poğaça Mini",
+        "price": "25.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Peynirli Poğaça",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Labneli Poğaça",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Poğaça Mini",
+        "price": "25.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Poğaça",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Dereotlu Poğaça",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Sucuklu Mini Pide",
+        "price": "120.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Sucuklu Büyük Pide",
+        "price": "230.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Mini Pide",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kaşarlı Büyük Pide",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kruvasan Çikolatalı",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Külçe",
+        "price": "30.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Biberli Ekmek",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Açma Zeytinli",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Açma Tahinli",
+        "price": "90.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Açma Salamlı",
+        "price": "70.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Açma Sade",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Açma Pizza",
+        "price": "95.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Açma Peynirli",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Açma Patatesli",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Açma Biberli",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Su Böreği Kg.",
+        "price": "900.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      }
+    ]
+  },
+  {
+    "category": "Soft İçecekler",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-09-at-13.47.08-1024x392.jpeg",
+    "items": [
+      {
+        "title": "Su Bardak 200 ml",
+        "price": "15.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/221-300x300.jpg"
+      },
+      {
+        "title": "Su Cam Şişe 330 ml.",
+        "price": "65.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/571-300x300.jpg"
+      },
+      {
+        "title": "Su Cam Şişe 750 ml.",
+        "price": "120.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/45-300x300.jpg"
+      },
+      {
+        "title": "Sade Soda",
+        "price": "55.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/62-300x300.jpg"
+      },
+      {
+        "title": "Coca Cola 300 ml. Kutu",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/46-300x300.jpg"
+      },
+      {
+        "title": "Coca Cola Zero 300 ml. Kutu",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/49-300x300.jpg"
+      },
+      {
+        "title": "Coca Cola 300 ml. Cam Şişe",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/61-300x300.jpg"
+      },
+      {
+        "title": "Sprite 330 ml Kutu",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/51-300x300.jpg"
+      },
+      {
+        "title": "Gazoz Ankara",
+        "price": "85.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/60-300x300.jpg"
+      },
+      {
+        "title": "Redbull 250ml.",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2024/09/56-300x300.jpg"
+      },
+      {
+        "title": "Cappy 330 Ml.Kutu Vişne",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/55-300x300.jpg"
+      },
+      {
+        "title": "Cappy 330 Ml.Kutu Şeftali",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/52-300x300.jpg"
+      },
+      {
+        "title": "Cappy 330 Ml.Kutu Karışık",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/50-300x300.jpg"
+      },
+      {
+        "title": "Fuse Tea 330 Ml. Mango",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2024/09/57-300x300.jpg"
+      },
+      {
+        "title": "Fuse Tea 330 Ml. Şeftali",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/47-300x300.jpg"
+      },
+      {
+        "title": "Fuse Tea 330 Ml. Karpuz",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/54-300x300.jpg"
+      },
+      {
+        "title": "Fuse Tea 330 Ml. Limonlu",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/57-300x300.jpg"
+      },
+      {
+        "title": "Şalgam Acısız",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/59-300x300.jpg"
+      },
+      {
+        "title": "Şalgam Acılı",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/58-300x300.jpg"
+      },
+      {
+        "title": "Ayran Pet Şişe 293 Ml.",
+        "price": "55.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/53-300x300.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Sıcak İçecekler",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-09-at-13.47.07-2-1024x392.jpeg",
+    "items": [
+      {
+        "title": "Türk Kahvesi (Fincan)",
+        "price": "125.00",
+        "description": "İÇİNDEKİLER 🫘 Kahve",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/64-1-300x300.jpg"
+      },
+      {
+        "title": "Ristretto Bianco",
+        "price": "260.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥛 Süt",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Mocha Tall",
+        "price": "220.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🫘 Kahve 🍫 Çikolata Sosu 🍦 Krem Şanti",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Mocha Short",
+        "price": "210.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🫘 Kahve 🍫 Çikolata Sosu 🍦 Krem Şanti",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Flat White Tall",
+        "price": "200.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🫘 Kahve",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Flat White Short",
+        "price": "190.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🫘 Kahve",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Filtre Kahve Sütlü Tall",
+        "price": "180.00",
+        "description": "İÇİNDEKİLER 🫘 Kahve",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Filtre Kahve Sütlü Short",
+        "price": "150.00",
+        "description": "İÇİNDEKİLER 🫘 Kahve",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Filtre Kahve Tall",
+        "price": "140.00",
+        "description": "İÇİNDEKİLER 🫘 Kahve",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Filtre Kahve Short",
+        "price": "130.00",
+        "description": "İÇİNDEKİLER 🫘 Kahve",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Espresso Double",
+        "price": "130.00",
+        "description": "İÇİNDEKİLER ☕ Espresso",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Espresso Shot",
+        "price": "120.00",
+        "description": "İÇİNDEKİLER ☕ Espresso",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Cortado",
+        "price": "210.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥛 Süt",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Chai Tea Latte Tall",
+        "price": "250.00",
+        "description": "İÇİNDEKİLER 🍂 Tarçın 🫚 Zencefil 🌸 Karanfil 🫛 Kakule 🌶️ Karabiber 🥛 Süt ☕ Siyah Çay 🌟 Yıldız Anason 🌰…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Chai Tea Latte Short",
+        "price": "230.00",
+        "description": "İÇİNDEKİLER 🍂 Tarçın 🫚 Zencefil 🌸 Karanfil 🫛 Kakule 🌶️ Karabiber 🥛 Süt ☕ Siyah Çay 🌟 Yıldız Anason 🌰…",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Caramel Macchiato Tale",
+        "price": "210.00",
+        "description": "İÇİNDEKİLER 🍦 Vanilya 🥛 Süt 🍯 Karamel ☕ Espresso",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Caramel Macchiato Short",
+        "price": "200.00",
+        "description": "İÇİNDEKİLER 🍦 Vanilya 🥛 Süt 🍯 Karamel ☕ Espresso",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Cappucinno Tall",
+        "price": "195.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥛 Süt",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Cappucinno Short",
+        "price": "185.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥛 Süt",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Americano Tall",
+        "price": "175.00",
+        "description": "İÇİNDEKİLER ☕ Espresso",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Americano Short",
+        "price": "165.00",
+        "description": "İÇİNDEKİLER ☕ Espresso",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Türk Kahvesi (Süvari)",
+        "price": "150.00",
+        "description": "İÇİNDEKİLER 🫘 Kahve",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/65-1-300x300.jpg"
+      },
+      {
+        "title": "Latte Tall",
+        "price": "195.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥛 Süt",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Latte Short",
+        "price": "185.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥛 Süt",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "White Mocha Tall",
+        "price": "220.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥛 Süt ⚪ Beyaz Çikolata 🍦 Krema",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "White Mocha Short",
+        "price": "210.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥛 Süt ⚪ Beyaz Çikolata 🍦 Krema",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Toffe Nut Latte Short",
+        "price": "260.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Double Çay",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Çay",
+        "price": "40.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Sıcak Çikolata",
+        "price": "280.00",
+        "description": "İÇİNDEKİLER 🍫 Çikolata 🍦 Vanilya 🥛 Süt",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Çikolata Şöleni",
+        "price": "325.00",
+        "description": "İÇİNDEKİLER ⚪ Beyaz Çikolata ⬛ Bitter Çikolata 🥛 Süt ☕ Espresso 🍦 Krema",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Antep Fıstıklı Latte",
+        "price": "290.00",
+        "description": "İÇİNDEKİLER ☕ Espresso 🥜 Antep Fıstığı 🥛 Süt 🍨 Dondurma",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ballı Süt",
+        "price": "170.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Cookie Latte",
+        "price": "250.00",
+        "description": "İÇİNDEKİLER 🍪 Kurabiye Şurubu 🥛 Süt ☕ Espresso",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ada Çayı",
+        "price": "175.00",
+        "description": "🌿 Adaçayı",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/08/149-300x300.jpg"
+      },
+      {
+        "title": "Lavanta Çayı",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ihlamur Çayı",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kiraz Sapı Çayı",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kış Çayı",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Rezene Çayı",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Yeşil Çay",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Papatya Çayı",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Hibiscus Çayı",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Melisa Çayı",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      }
+    ]
+  },
+  {
+    "category": "Soğuk İçecekler",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/soguk-icecekler-1024x393.jpg",
+    "items": [
+      {
+        "title": "Baklavalı Milkshake",
+        "price": "350.00",
+        "description": "İÇİNDEKİLER 🥛 SÜT YARIM YAGLI LT 🥜 ANTEP FISTIGI TOZ KG 🍯 BARISTA SURUP 🍦 KREM SANTI SPREY 📦 PAKET…",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/11-1-300x300.jpg"
+      },
+      {
+        "title": "Ice Mocha Grande",
+        "price": "275.00",
+        "description": "İÇİNDEKİLER 🍫 BARISTA BAR SOS CIKOLATA CENOVA 🥛 SÜT YARIM YAGLI ☕ BARISTA CEKIRDEK KAHVE 🍦 KREM SANTI SPREY",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ice Latte Grande",
+        "price": "230.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ice Flat White Grande",
+        "price": "220.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ice Filtre Coffe Grande",
+        "price": "150.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ice Americano Grande",
+        "price": "190.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Frozen Strawberry Grande",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Frozen Kırmızı Orman Meyveli Grande",
+        "price": "225.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Frozen Mango Grande",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Frozen Yaban Mersini Grande",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Frappuccino Java Chip Grande",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Frappuccino Espresso Grande",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Cool Lime Grande",
+        "price": "230.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Berry Hibiscus Grande",
+        "price": "230.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ice Antep Fıstıklı Latte Grande",
+        "price": "300.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Cold Brew Latte",
+        "price": "230.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Cold Brew",
+        "price": "220.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Churchill",
+        "price": "100.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Ananaslı Frozen",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Karpuzlu Frozen",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "A Rainbow Moctail",
+        "price": "225.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "A Raspberry Cool lime",
+        "price": "225.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Çilekli Süt El Yapımı",
+        "price": "170.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Emmoğlu Atom",
+        "price": "200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Caramel Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/7-300x300.jpg"
+      },
+      {
+        "title": "Çikolatalı Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/3-1-300x300.jpg"
+      },
+      {
+        "title": "Çilekli Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/1-300x300.jpg"
+      },
+      {
+        "title": "Çikolata Parçacıklı Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/6-300x300.jpg"
+      },
+      {
+        "title": "Böğürtlenli Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/4-1-300x300.jpg"
+      },
+      {
+        "title": "Lotuslu Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/2-300x300.jpg"
+      },
+      {
+        "title": "Oreolu Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/8-300x300.jpg"
+      },
+      {
+        "title": "Vanilyalı Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/13-300x300.jpg"
+      },
+      {
+        "title": "Antep Fıstıklı Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/14-300x300.jpg"
+      },
+      {
+        "title": "Marshmallow Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/10-300x300.jpg"
+      },
+      {
+        "title": "Rumums ice Grande",
+        "price": "290.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kavunlu Frozen",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kavunlu Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Toffe Nut Latte ice Grande",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Muzlu Süt El Yapımı",
+        "price": "160.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Taze Sıkılmış Portakal Suyu",
+        "price": "190.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Limonata El Yapımı",
+        "price": "160.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Çilekli Mojito",
+        "price": "130.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Naneli Mojito",
+        "price": "130.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Çilekli Limonata",
+        "price": "230.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Strawberry Ice Latte",
+        "price": "200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Galaksi Strawberry",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Antep Fıstıklı Affagatto",
+        "price": "450.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Vişneli Milkshake Dondurmalı",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/5-300x300.jpg"
+      },
+      {
+        "title": "Ice Hazelnut Latte",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Rümeysa Şefin Limonatası",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      }
+    ]
+  },
+  {
+    "category": "Dondurma",
+    "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-09-at-13.47.08-2-1024x392.jpeg",
+    "items": [
+      {
+        "title": "Ananaslı Dondurma",
+        "price": "600.00",
+        "description": "İÇİNDEKİLER 🍍 Ananas 🍓 Çilek 🍨 Dondurma",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "HAYTALI",
+        "price": "250.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/143-300x300.jpg"
+      },
+      {
+        "title": "Kızarmış Dondurma",
+        "price": "350.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/07/104-300x300.jpg"
+      },
+      {
+        "title": "Emmoğlu Çerezi",
+        "price": "400.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/145-300x300.jpg"
+      },
+      {
+        "title": "Dondurma Kol 1 Kg",
+        "price": "950.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/130-300x300.jpg"
+      },
+      {
+        "title": "Dondurma Rüyaameysa",
+        "price": "340.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/139-300x300.jpg"
+      },
+      {
+        "title": "Dondurma Çilek Sepeti",
+        "price": "325.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Kesme Dondurma",
+        "price": "200.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2026/04/131-300x300.jpg"
+      },
+      {
+        "title": "Affagato",
+        "price": "300.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/uploads/2022/03/141-300x300.jpg"
+      },
+      {
+        "title": "Dondurma 4 Top",
+        "price": "175.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Dondurma 3 Top",
+        "price": "130.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Dondurma 2 Top",
+        "price": "90.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      },
+      {
+        "title": "Dondurma 1 Top",
+        "price": "50.00",
+        "description": "",
+        "image": "https://emmoglumenu.com/wp-content/plugins/woocommerce/assets/images/placeholder.webp"
+      }
+    ]
+  }
+]
