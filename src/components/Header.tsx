@@ -54,7 +54,7 @@ export default function Header() {
                 key={link.name}
                 href={link.href}
                 className={`font-semibold transition-colors duration-200 hover:text-[#bc906b] ${
-                  isScrolled ? 'text-gray-800' : 'text-gray-900'
+                  isScrolled ? 'text-gray-800' : 'text-white'
                 }`}
               >
                 {link.name}
@@ -64,7 +64,9 @@ export default function Header() {
 
           {/* Right Info Area & Mobile Toggle */}
           <div className="flex items-center space-x-4">
-            <div className="hidden sm:flex items-center text-gray-800 font-semibold">
+            <div className={`hidden sm:flex items-center font-semibold transition-colors duration-200 ${
+              isScrolled ? 'text-gray-800' : 'text-white'
+            }`}>
               <Phone className="w-5 h-5 mr-2 text-[#bc906b]" />
               0538 096 31 51
             </div>
@@ -79,7 +81,9 @@ export default function Header() {
             {/* Mobile Menu Button */}
             <button
               type="button"
-              className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-[#bc906b] focus:outline-none"
+              className={`md:hidden inline-flex items-center justify-center p-2 rounded-md hover:text-[#bc906b] focus:outline-none transition-colors duration-200 ${
+                isScrolled ? 'text-gray-800' : 'text-white'
+              }`}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               <span className="sr-only">Menüyü aç</span>
