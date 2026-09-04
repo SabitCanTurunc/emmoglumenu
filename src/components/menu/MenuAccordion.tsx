@@ -7,7 +7,7 @@ import { ChevronDown } from 'lucide-react';
 export default function MenuAccordion({ menuData }: { menuData: any[] }) {
   // Store the currently open category indices in an array.
   // This allows multiple categories to be open at once, preventing the page from jumping when one closes.
-  const [openIndices, setOpenIndices] = useState<number[]>([0]); // 0 is open by default
+  const [openIndices, setOpenIndices] = useState<number[]>([]); // all closed by default
 
   const toggleAccordion = (index: number) => {
     setOpenIndices((prev) =>
