@@ -8,10 +8,12 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
   const pathname = usePathname();
   const isAdmin = pathname?.startsWith('/admin');
 
+  const isHome = pathname === '/';
+
   return (
     <>
       {!isAdmin && <Header />}
-      <main className={!isAdmin ? "flex-grow pt-[88px] sm:pt-[104px]" : "flex-grow"}>
+      <main className={!isAdmin ? (isHome ? "flex-grow" : "flex-grow pt-[88px] sm:pt-[104px]") : "flex-grow"}>
         {children}
       </main>
       {!isAdmin && <Footer />}
