@@ -59,7 +59,7 @@ export default function MenuAccordion({ menuData }: { menuData: any[] }) {
                   <div
                     key={itemIndex}
                     onClick={() => setSelectedProduct(item)}
-                    className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300 flex flex-col cursor-pointer"
+                    className="bg-gray-900 md:bg-white rounded-xl shadow-sm border border-gray-800 md:border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300 flex flex-col cursor-pointer"
                   >
                     <div className="flex p-4 gap-4 h-full">
                       {/* Product Image */}
@@ -78,11 +78,11 @@ export default function MenuAccordion({ menuData }: { menuData: any[] }) {
                       {/* Product Info */}
                       <div className="flex-grow flex flex-col justify-between">
                         <div>
-                          <h3 className="text-lg md:text-xl font-bold text-gray-900 leading-tight mb-2">
+                          <h3 className="text-lg md:text-xl font-bold text-white md:text-gray-900 leading-tight mb-2">
                             {item.title}
                           </h3>
                           {item.description && (
-                            <p className="text-gray-500 text-sm md:text-base line-clamp-3">
+                            <p className="text-gray-400 md:text-gray-500 text-sm md:text-base line-clamp-3">
                               {item.description}
                             </p>
                           )}

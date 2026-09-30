@@ -11,7 +11,6 @@ if (!MONGODB_URI) {
 const options = {
   dbName: 'emmoglumenu', // Bu, veritabanının adının "emmoglumenu" olmasını garantiler
   bufferCommands: false,
-  family: 4, // Use IPv4, skip trying IPv6
 };
 
 let cached = (global as any).mongoose;

@@ -13,9 +13,9 @@ export default function IletisimPage() {
       {/* Hero Banner */}
       <section className="bg-black py-20 relative">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70"
           style={{
-            backgroundImage: "url('https://emmoglumenu.com/wp-content/uploads/2026/04/1banner-yatay-2-bannerPic-8.jpg')",
+            backgroundImage: "url('/images/gece-mekan.png')",
           }}
         />
         <div className="container mx-auto px-4 relative z-10 text-center">
@@ -42,7 +42,7 @@ export default function IletisimPage() {
           <div className="flex flex-col items-center">
             <div className="mb-6 relative w-20 h-20">
               <Image 
-                src="https://emmoglumenu.com/wp-content/uploads/2019/06/icon.png"
+                src="/images/icon.png"
                 alt="Adres İkonu"
                 fill
                 style={{ objectFit: 'contain' }}

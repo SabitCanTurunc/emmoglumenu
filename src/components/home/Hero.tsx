@@ -5,15 +5,15 @@ export default function Hero() {
     <section className="relative min-h-screen w-full bg-black overflow-hidden flex items-center justify-center">
       {/* Background Image with Parallax effect */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60 transition-transform duration-1000 scale-105"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-90 transition-transform duration-1000 scale-105"
         style={{
-          backgroundImage: "url('https://emmoglumenu.com/wp-content/uploads/2026/04/1banner-yatay-2-bannerPic-8.jpg')",
+          backgroundImage: "url('/images/gece-mekan.png')",
         }}
       />
       
       {/* Enhanced Gradient Overlays */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-[#111111]" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-[#111111]/80" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-black/50" />
 
       {/* Decorative Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#bc906b]/10 rounded-full blur-[120px] pointer-events-none" />

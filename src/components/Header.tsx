@@ -26,22 +26,22 @@ export default function Header() {
   return (
     <header
       className={`fixed left-0 right-0 z-50 transition-all duration-500 flex justify-center ${
-        isScrolled ? 'top-4 px-4' : 'top-0 px-0'
+        isScrolled ? 'top-4 px-4' : 'top-0 px-0 md:bg-gradient-to-b md:from-black/80 md:to-transparent'
       }`}
     >
       <div 
         className={`w-full transition-all duration-500 flex items-center justify-between ${
           isScrolled 
-            ? 'max-w-5xl bg-black/70 backdrop-blur-xl border border-white/10 shadow-[0_8px_30px_rgb(0,0,0,0.5)] rounded-full px-6 py-2' 
-            : 'container mx-auto px-4 sm:px-6 lg:px-8 py-5 bg-gradient-to-b from-black/80 to-transparent border-b border-transparent'
+            ? 'max-w-5xl md:bg-black/70 md:backdrop-blur-xl md:border md:border-white/10 md:shadow-[0_8px_30px_rgb(0,0,0,0.5)] md:rounded-full px-4 md:px-6 py-2' 
+            : 'container mx-auto px-4 sm:px-6 lg:px-8 py-5'
         }`}
       >
         {/* Logo Area */}
         <div className="flex-shrink-0 transition-transform duration-300 hover:scale-105">
           <Link href="/" className="flex items-center">
-            <div className={`relative transition-all duration-500 ${isScrolled ? 'h-10 w-28' : 'h-14 w-36'}`}>
+            <div className={`relative transition-all duration-500 ${isScrolled ? 'h-12 w-36' : 'h-20 w-52'}`}>
               <Image
-                src="https://emmoglumenu.com/wp-content/uploads/2026/04/cropped-emmoglu-1.png"
+                src="/images/cropped-emmoglu-1.png"
                 alt="Emmoğlu"
                 fill
                 style={{ objectFit: 'contain', objectPosition: 'left' }}
@@ -86,7 +86,7 @@ export default function Header() {
             className={`hidden md:inline-flex items-center justify-center font-bold tracking-wide transition-all duration-300 ${
               isScrolled 
                 ? 'bg-[#bc906b] text-black hover:bg-white px-5 py-2 rounded-full text-xs shadow-lg hover:shadow-xl' 
-                : 'bg-transparent border border-[#bc906b] text-[#bc906b] hover:bg-[#bc906b] hover:text-black px-6 py-2.5 rounded-full text-sm hover:shadow-[0_0_20px_rgba(188,144,107,0.4)]'
+                : 'bg-[#bc906b] text-black hover:bg-white px-6 py-2.5 rounded-full text-sm shadow-[0_0_20px_rgba(188,144,107,0.4)] hover:shadow-[0_0_30px_rgba(188,144,107,0.6)]'
             }`}
           >
             Menüyü İncele
@@ -95,7 +95,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             type="button"
-            className="md:hidden inline-flex items-center justify-center p-2 rounded-full text-white hover:text-[#bc906b] focus:outline-none transition-colors duration-200 bg-black/20"
+            className="md:hidden inline-flex items-center justify-center p-2 rounded-full text-white hover:text-[#bc906b] focus:outline-none transition-colors duration-200 bg-black/40 backdrop-blur-sm"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <span className="sr-only">Menüyü aç</span>
@@ -108,13 +108,22 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu Panel */}
+      {/* Mobile Menu Panel Sidebar */}
       <div 
-        className={`md:hidden absolute w-full left-0 top-full bg-black/95 backdrop-blur-xl border-t border-[#333] transition-all duration-300 origin-top overflow-hidden ${
-          isMobileMenuOpen ? 'max-h-96 opacity-100 shadow-2xl' : 'max-h-0 opacity-0'
+        className={`md:hidden fixed inset-y-0 right-0 z-[70] w-72 bg-black/95 backdrop-blur-xl border-l border-[#333] transition-transform duration-300 shadow-2xl flex flex-col ${
+          isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <div className="px-6 py-6 space-y-4">
+        <div className="flex justify-between items-center p-6 border-b border-[#222]">
+          <span className="text-white font-zcool text-2xl tracking-widest uppercase">Menü</span>
+          <button
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="text-white hover:text-[#bc906b] transition-colors p-2 bg-white/10 rounded-full focus:outline-none"
+          >
+            <X className="h-6 w-6" />
+          </button>
+        </div>
+        <div className="px-6 py-8 space-y-6 flex-grow overflow-y-auto">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -127,17 +136,25 @@ export default function Header() {
           ))}
           <Link
             href="/menu"
-            className="block w-full mt-6 py-3 rounded-xl text-center font-bold text-black bg-[#bc906b] hover:bg-[#a57d5a] transition-colors shadow-[0_0_15px_rgba(188,144,107,0.3)]"
+            className="block w-full mt-8 py-4 rounded-xl text-center font-bold text-black bg-[#bc906b] hover:bg-[#a57d5a] transition-colors shadow-[0_0_15px_rgba(188,144,107,0.3)]"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Menüyü İncele
           </Link>
-          <div className="mt-6 flex items-center justify-center text-gray-400 font-semibold pt-4">
+          <div className="mt-8 flex items-center justify-center text-gray-400 font-semibold pt-6 border-t border-[#222]">
             <Phone className="w-5 h-5 mr-3 text-[#bc906b]" />
             <span className="tracking-widest">0538 096 31 51</span>
           </div>
         </div>
       </div>
+
+      {/* Sidebar Overlay */}
+      <div 
+        className={`md:hidden fixed inset-0 z-[60] bg-black/50 backdrop-blur-sm transition-opacity duration-300 ${
+          isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+        }`}
+        onClick={() => setIsMobileMenuOpen(false)}
+      />
     </header>
   );
 }

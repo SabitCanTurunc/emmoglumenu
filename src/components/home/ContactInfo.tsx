@@ -22,7 +22,7 @@ export default function ContactInfo() {
           <div className="flex flex-col items-center">
             <div className="mb-6 relative w-20 h-20">
               <Image 
-                src="https://emmoglumenu.com/wp-content/uploads/2019/06/icon.png"
+                src="/images/icon.png"
                 alt="Adres İkonu"
                 fill
                 style={{ objectFit: 'contain' }}

@@ -11,10 +11,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 border-b border-gray-800 pb-12">
           
           {/* Logo */}
-          <div className="flex flex-col items-start">
-            <Link href="/" className="relative h-16 w-48 mb-6 block">
+          <div className="flex flex-col justify-center items-start h-full">
+            <Link href="/" className="relative h-28 w-[21rem] block">
               <Image
-                src="https://emmoglumenu.com/wp-content/uploads/2026/04/emmoglu.png"
+                src="/images/emmoglu.png"
                 alt="Emmoğlu"
                 fill
                 style={{ objectFit: 'contain', objectPosition: 'left' }}
@@ -69,10 +69,10 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
             >
-              <div className="relative w-20 h-6">
+              <div className="relative w-14 h-14">
                 <Image 
-                  src="https://emmoglumenu.com/wp-content/uploads/2022/03/hgt-logo-80px-beyaz.png"
-                  alt="HGT Ajans"
+                  src="/images/ajans-logo.png"
+                  alt="Ajans"
                   fill
                   style={{ objectFit: 'contain' }}
                   unoptimized

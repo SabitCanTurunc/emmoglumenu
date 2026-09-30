@@ -13,7 +13,7 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
   return (
     <>
       {!isAdmin && <Header />}
-      <main className={!isAdmin ? (isHome ? "flex-grow" : "flex-grow pt-[88px] sm:pt-[104px]") : "flex-grow"}>
+      <main className={!isAdmin ? (isHome ? "flex-grow" : "flex-grow pt-0 md:pt-[104px]") : "flex-grow"}>
         {children}
       </main>
       {!isAdmin && <Footer />}

@@ -48,13 +48,13 @@ export default async function MenuPage() {
   const menuData = await getMenuData();
 
   return (
-    <div className="bg-gray-50 min-h-screen pb-20">
+    <div className="bg-black md:bg-gray-50 min-h-screen pb-20">
       {/* Menu Hero */}
       <section className="bg-black py-20 relative">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70"
           style={{
-            backgroundImage: "url('https://emmoglumenu.com/wp-content/uploads/2026/04/1banner-yatay-2-bannerPic-8.jpg')",
+            backgroundImage: "url('/images/gece-mekan.png')",
           }}
         />
         <div className="container mx-auto px-4 relative z-10 text-center">

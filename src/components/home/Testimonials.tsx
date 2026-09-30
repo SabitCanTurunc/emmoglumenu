@@ -23,7 +23,7 @@ export default function Testimonials() {
         {/* Left Image Side */}
         <div className="lg:w-1/2 relative min-h-[400px] lg:min-h-full">
           <Image
-            src="https://emmoglumenu.com/wp-content/uploads/2026/04/4-0902-1024x1024.jpg"
+            src="/images/4-0902-1024x1024.jpg"
             alt="Emmoğlu Lezzetleri"
             fill
             style={{ objectFit: 'cover' }}
