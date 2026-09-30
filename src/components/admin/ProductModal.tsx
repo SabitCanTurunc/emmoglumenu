@@ -49,6 +49,17 @@ export default function ProductModal({ isOpen, onClose, onSave, initialData }: P
     const file = e.target.files?.[0];
     if (!file) return;
 
+    if (!file.type.startsWith('image/')) {
+      alert('Lütfen geçerli bir resim dosyası (JPG, PNG vs.) seçin.');
+      return;
+    }
+
+    const MAX_SIZE_MB = 5;
+    if (file.size > MAX_SIZE_MB * 1024 * 1024) {
+      alert(`Dosya boyutu çok büyük! Lütfen en fazla ${MAX_SIZE_MB}MB boyutunda bir resim yükleyin.`);
+      return;
+    }
+
     setIsUploading(true);
     const uploadData = new FormData();
     uploadData.append('file', file);
