@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import mongoose from 'mongoose';
 
 export const dynamic = 'force-dynamic';
 import connectToDatabase from '@/lib/mongodb';
@@ -51,30 +52,43 @@ export async function POST(request: Request) {
     // NOTE: In a real production app, it's better to use specific PUT/DELETE endpoints for individual items
     // But to match the previous local JSON logic, we override the collection.
     
-    await Category.deleteMany({});
-    await Product.deleteMany({});
+    const newCategories = [];
+    const newProducts = [];
     
     let catOrder = 0;
     for (const catData of body) {
-      const newCat = await Category.create({
+      const catId = new mongoose.Types.ObjectId();
+      newCategories.push({
+        _id: catId,
         name: catData.category,
         image: catData.image || '',
         order: catOrder++,
       });
       
-      let prodOrder = 0;
       if (catData.items && Array.isArray(catData.items)) {
+        let prodOrder = 0;
         for (const item of catData.items) {
-          await Product.create({
+          newProducts.push({
             title: item.title,
             price: item.price,
             description: item.description || '',
             image: item.image || '',
-            category: newCat._id,
+            category: catId,
             order: prodOrder++,
           });
         }
       }
+    }
+    
+    // Batch operations to minimize the race condition window where data is missing
+    await Category.deleteMany({});
+    await Product.deleteMany({});
+    
+    if (newCategories.length > 0) {
+      await Category.insertMany(newCategories);
+    }
+    if (newProducts.length > 0) {
+      await Product.insertMany(newProducts);
     }
     
     return NextResponse.json({ success: true, message: 'Menu data updated successfully' });
