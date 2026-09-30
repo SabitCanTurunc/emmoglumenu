@@ -69,7 +69,7 @@ export default function MenuAccordion({ menuData }: { menuData: any[] }) {
                             src={item.image}
                             alt={item.title}
                             fill
-                            style={{ objectFit: 'cover' }}
+                            style={{ objectFit: 'contain' }}
                             unoptimized
                           />
                         </div>
@@ -122,12 +122,12 @@ export default function MenuAccordion({ menuData }: { menuData: any[] }) {
             
             <div className="overflow-y-auto flex-grow custom-scrollbar">
               {selectedProduct.image && (
-                <div className="relative w-full h-56 md:h-72 bg-gray-100 flex-shrink-0">
+                <div className="relative w-full aspect-square max-h-80 bg-gray-100 flex-shrink-0 mx-auto">
                   <Image
                     src={selectedProduct.image}
                     alt={selectedProduct.title}
                     fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: 'contain' }}
                     unoptimized
                   />
                 </div>
