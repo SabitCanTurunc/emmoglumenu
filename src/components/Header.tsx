@@ -70,7 +70,7 @@ export default function Header() {
 
         {/* Right Info Area & Mobile Toggle */}
         <div className="flex items-center space-x-4 lg:space-x-6">
-          <div className="hidden lg:flex items-center text-gray-200 font-semibold text-sm group cursor-pointer">
+          <a href="tel:+905380963151" className="hidden lg:flex items-center text-gray-200 font-semibold text-sm group cursor-pointer">
             <div className={`p-2 rounded-full mr-2 transition-colors duration-300 border ${
               isScrolled ? 'bg-transparent border-transparent' : 'bg-[#1a1a1a] border-[#333] group-hover:bg-[#bc906b]'
             }`}>
@@ -79,7 +79,7 @@ export default function Header() {
             <span className={`transition-colors duration-300 tracking-wider ${isScrolled ? 'group-hover:text-[#bc906b] text-xs' : 'group-hover:text-[#bc906b]'}`}>
               0538 096 31 51
             </span>
-          </div>
+          </a>
           
           <Link 
             href="/menu" 
@@ -141,10 +141,10 @@ export default function Header() {
           >
             Menüyü İncele
           </Link>
-          <div className="mt-8 flex items-center justify-center text-gray-400 font-semibold pt-6 border-t border-[#222]">
+          <a href="tel:+905380963151" className="mt-8 flex items-center justify-center text-gray-400 font-semibold pt-6 border-t border-[#222] hover:text-[#bc906b] transition-colors">
             <Phone className="w-5 h-5 mr-3 text-[#bc906b]" />
             <span className="tracking-widest">0538 096 31 51</span>
-          </div>
+          </a>
         </div>
       </div>
 

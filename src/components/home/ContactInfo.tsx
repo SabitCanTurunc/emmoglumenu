@@ -14,8 +14,12 @@ export default function ContactInfo() {
               <Mail className="w-8 h-8 text-[#bc906b]" />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-gray-900">İletişim</h3>
-            <p className="text-gray-600 mb-2">E-Posta: info@emmoglumenu.com</p>
-            <p className="text-gray-600 mb-2">Telefon: 0538 096 31 51</p>
+            <p className="text-gray-600 mb-2">
+              E-Posta: <a href="mailto:info@emmoglumenu.com" className="hover:text-[#bc906b] transition-colors">info@emmoglumenu.com</a>
+            </p>
+            <p className="text-gray-600 mb-2">
+              Telefon: <a href="tel:+905380963151" className="hover:text-[#bc906b] transition-colors">0538 096 31 51</a>
+            </p>
           </div>
 
           {/* Adres */}
