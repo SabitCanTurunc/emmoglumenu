@@ -48,7 +48,7 @@ export default function AdminMenuPage() {
     }
   };
 
-  const handleSaveCategory = (categoryObj: { category: string; image: string }, oldName?: string) => {
+  const handleSaveCategory = (categoryObj: { category: string; image: string; order: number }, oldName?: string) => {
     let newData = [...menuData];
     
     if (oldName) {
@@ -57,16 +57,19 @@ export default function AdminMenuPage() {
       if (index !== -1) {
         newData[index].category = categoryObj.category;
         newData[index].image = categoryObj.image;
+        newData[index].order = categoryObj.order;
       }
     } else {
       // Add
       newData.push({
         category: categoryObj.category,
         image: categoryObj.image,
+        order: categoryObj.order,
         items: [],
       });
     }
     
+    newData.sort((a, b) => (a.order || 0) - (b.order || 0));
     saveMenu(newData);
   };
 
@@ -115,9 +118,9 @@ export default function AdminMenuPage() {
               className="bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl p-4 flex flex-col md:flex-row items-start md:items-center group hover:border-[#bc906b]/50 transition-colors"
             >
               <div className="flex items-center w-full md:w-auto mb-4 md:mb-0">
-                {/* Drag Handle Dummy */}
-                <div className="text-gray-600 mr-4 cursor-grab hover:text-white transition-colors">
-                  <GripVertical className="w-5 h-5" />
+                {/* Order Display */}
+                <div className="w-8 h-8 rounded bg-[#2a2a2a] flex items-center justify-center text-[#bc906b] font-bold mr-4 shrink-0 text-sm border border-[#333]">
+                  {cat.order !== undefined ? cat.order : index}
                 </div>
                 
                 {/* Image Preview */}

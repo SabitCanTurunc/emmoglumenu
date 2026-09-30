@@ -79,7 +79,7 @@ export default function CategoryProductsPage({ params }: { params: Promise<{ cat
       items.push(productData);
     }
     
-    newData[currentCategoryIndex].items = items;
+    newData[currentCategoryIndex].items = items.sort((a, b) => (a.order || 0) - (b.order || 0));
     saveMenu(newData);
   };
 
@@ -144,9 +144,9 @@ export default function CategoryProductsPage({ params }: { params: Promise<{ cat
             className="bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl p-4 flex flex-col md:flex-row items-start md:items-center group hover:border-[#bc906b]/50 transition-colors"
           >
             <div className="flex items-start w-full md:w-auto mb-4 md:mb-0 flex-1">
-              {/* Drag Handle Dummy */}
-              <div className="text-gray-600 mr-4 mt-2 md:mt-0 cursor-grab hover:text-white transition-colors shrink-0">
-                <GripVertical className="w-5 h-5" />
+              {/* Order Display */}
+              <div className="w-8 h-8 rounded bg-[#2a2a2a] flex items-center justify-center text-[#bc906b] font-bold mr-4 mt-4 md:mt-2 shrink-0 text-sm border border-[#333]">
+                {item.order !== undefined ? item.order : index}
               </div>
               
               {/* Image Preview */}

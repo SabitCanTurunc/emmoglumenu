@@ -16,6 +16,7 @@ export default function ProductModal({ isOpen, onClose, onSave, initialData }: P
     price: initialData?.price || '',
     description: initialData?.description || '',
     image: initialData?.image || '',
+    order: initialData?.order || 0,
   });
   
   const [isUploading, setIsUploading] = useState(false);
@@ -28,6 +29,7 @@ export default function ProductModal({ isOpen, onClose, onSave, initialData }: P
         price: initialData.price || '',
         description: initialData.description || '',
         image: initialData.image || '',
+        order: initialData.order !== undefined ? initialData.order : 0,
       });
     } else {
       setFormData({
@@ -35,6 +37,7 @@ export default function ProductModal({ isOpen, onClose, onSave, initialData }: P
         price: '',
         description: '',
         image: '',
+        order: 0,
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -102,19 +105,34 @@ export default function ProductModal({ isOpen, onClose, onSave, initialData }: P
         </div>
 
         <form onSubmit={handleSubmit} className="p-6 space-y-4 overflow-y-auto">
-          <div>
-            <label className="block text-sm font-medium text-gray-400 mb-1">
-              Ürün Adı *
-            </label>
-            <input
-              type="text"
-              name="title"
-              value={formData.title}
-              onChange={handleChange}
-              className="w-full bg-[#0a0a0a] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#bc906b] transition-colors"
-              placeholder="Örn: Sucuklu Köy Menemeni"
-              required
-            />
+          <div className="flex space-x-4">
+            <div className="flex-1">
+              <label className="block text-sm font-medium text-gray-400 mb-1">
+                Ürün Adı *
+              </label>
+              <input
+                type="text"
+                name="title"
+                value={formData.title}
+                onChange={handleChange}
+                className="w-full bg-[#0a0a0a] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#bc906b] transition-colors"
+                placeholder="Örn: Sucuklu Köy Menemeni"
+                required
+              />
+            </div>
+            <div className="w-24 shrink-0">
+              <label className="block text-sm font-medium text-gray-400 mb-1">
+                Sıra No
+              </label>
+              <input
+                type="number"
+                name="order"
+                value={formData.order}
+                onChange={handleChange}
+                className="w-full bg-[#0a0a0a] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#bc906b] transition-colors"
+                required
+              />
+            </div>
           </div>
 
           <div>

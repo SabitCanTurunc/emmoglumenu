@@ -6,13 +6,14 @@ import { X, Upload } from 'lucide-react';
 interface CategoryModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onSave: (category: { category: string; image: string }, oldCategoryName?: string) => void;
-  initialData?: { category: string; image: string } | null;
+  onSave: (category: { category: string; image: string; order: number }, oldCategoryName?: string) => void;
+  initialData?: { category: string; image: string; order?: number } | null;
 }
 
 export default function CategoryModal({ isOpen, onClose, onSave, initialData }: CategoryModalProps) {
   const [categoryName, setCategoryName] = useState(initialData?.category || '');
   const [categoryImage, setCategoryImage] = useState(initialData?.image || '');
+  const [categoryOrder, setCategoryOrder] = useState<number>(initialData?.order || 0);
   const [isUploading, setIsUploading] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -20,9 +21,11 @@ export default function CategoryModal({ isOpen, onClose, onSave, initialData }: 
     if (initialData) {
       setCategoryName(initialData.category);
       setCategoryImage(initialData.image);
+      setCategoryOrder(initialData.order !== undefined ? initialData.order : 0);
     } else {
       setCategoryName('');
       setCategoryImage('');
+      setCategoryOrder(0);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialData, isOpen]);
@@ -64,7 +67,7 @@ export default function CategoryModal({ isOpen, onClose, onSave, initialData }: 
       alert('Lütfen resim yüklemesinin bitmesini bekleyin.');
       return;
     }
-    onSave({ category: categoryName, image: categoryImage }, initialData?.category);
+    onSave({ category: categoryName, image: categoryImage, order: categoryOrder }, initialData?.category);
     onClose();
   };
 
@@ -84,18 +87,33 @@ export default function CategoryModal({ isOpen, onClose, onSave, initialData }: 
         </div>
 
         <form onSubmit={handleSubmit} className="p-6 space-y-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-400 mb-1">
-              Kategori Adı
-            </label>
-            <input
-              type="text"
-              value={categoryName}
-              onChange={(e) => setCategoryName(e.target.value)}
-              className="w-full bg-[#0a0a0a] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#bc906b] transition-colors"
-              placeholder="Örn: Kahvaltılıklar"
-              required
-            />
+          <div className="flex space-x-4">
+            <div className="flex-1">
+              <label className="block text-sm font-medium text-gray-400 mb-1">
+                Kategori Adı
+              </label>
+              <input
+                type="text"
+                value={categoryName}
+                onChange={(e) => setCategoryName(e.target.value)}
+                className="w-full bg-[#0a0a0a] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#bc906b] transition-colors"
+                placeholder="Örn: Kahvaltılıklar"
+                required
+              />
+            </div>
+            
+            <div className="w-24 shrink-0">
+              <label className="block text-sm font-medium text-gray-400 mb-1">
+                Sıra No
+              </label>
+              <input
+                type="number"
+                value={categoryOrder}
+                onChange={(e) => setCategoryOrder(Number(e.target.value))}
+                className="w-full bg-[#0a0a0a] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#bc906b] transition-colors"
+                required
+              />
+            </div>
           </div>
 
           <div>

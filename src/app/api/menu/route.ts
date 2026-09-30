@@ -62,7 +62,7 @@ export async function POST(request: Request) {
         _id: catId,
         name: catData.category,
         image: catData.image || '',
-        order: catOrder++,
+        order: catData.order !== undefined ? catData.order : catOrder++,
       });
       
       if (catData.items && Array.isArray(catData.items)) {
@@ -74,7 +74,7 @@ export async function POST(request: Request) {
             description: item.description || '',
             image: item.image || '',
             category: catId,
-            order: prodOrder++,
+            order: item.order !== undefined ? item.order : prodOrder++,
           });
         }
       }
