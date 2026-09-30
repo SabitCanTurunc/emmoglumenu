@@ -49,14 +49,10 @@ export default function ProductModal({ isOpen, onClose, onSave, initialData }: P
     const file = e.target.files?.[0];
     if (!file) return;
 
-    if (!file.type.startsWith('image/')) {
-      alert('Lütfen geçerli bir resim dosyası (JPG, PNG vs.) seçin.');
-      return;
-    }
-
-    const MAX_SIZE_MB = 5;
-    if (file.size > MAX_SIZE_MB * 1024 * 1024) {
-      alert(`Dosya boyutu çok büyük! Lütfen en fazla ${MAX_SIZE_MB}MB boyutunda bir resim yükleyin.`);
+    if (file.size > 5 * 1024 * 1024) {
+      alert("Dosya boyutu 5 MB'dan küçük olmalıdır. Lütfen daha küçük bir görsel seçin.");
+      // Input'u temizle (aynı dosyayı tekrar seçebilmeleri için)
+      e.target.value = '';
       return;
     }
 

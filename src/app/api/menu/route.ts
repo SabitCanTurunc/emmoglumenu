@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import mongoose from 'mongoose';
+import { revalidatePath } from 'next/cache';
 
 export const dynamic = 'force-dynamic';
 import connectToDatabase from '@/lib/mongodb';
@@ -90,6 +91,7 @@ export async function POST(request: Request) {
     if (newProducts.length > 0) {
       await Product.insertMany(newProducts);
     }
+    revalidatePath('/menu');
     
     return NextResponse.json({ success: true, message: 'Menu data updated successfully' });
   } catch (error) {

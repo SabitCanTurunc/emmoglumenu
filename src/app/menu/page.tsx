@@ -3,7 +3,7 @@ import connectToDatabase from '@/lib/mongodb';
 import { Category } from '@/models/Category';
 import { Product } from '@/models/Product';
 
-export const dynamic = 'force-dynamic'; // Her zaman güncel veriyi çekmesi için
+// Statik önbellek (cache) aktif. Yönetim paneli güncellediğinde API üzerinden cache temizlenecek.
 
 export const metadata = {
   title: 'Menü - Emmoğlu Menu',
