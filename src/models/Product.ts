@@ -7,6 +7,7 @@ export interface IProduct extends Document {
   image: string;
   category: mongoose.Types.ObjectId;
   order: number;
+  isActive: boolean;
 }
 
 const ProductSchema: Schema = new Schema(
@@ -31,10 +32,15 @@ const ProductSchema: Schema = new Schema(
       type: Schema.Types.ObjectId,
       ref: 'Category',
       required: true,
+      index: true,
     },
     order: {
       type: Number,
       default: 0,
+    },
+    isActive: {
+      type: Boolean,
+      default: true,
     },
   },
   {

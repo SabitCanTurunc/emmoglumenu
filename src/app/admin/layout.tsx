@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import Sidebar from '@/components/admin/Sidebar';
 import LoginForm from '@/components/admin/LoginForm';
 import { cookies } from 'next/headers';
+import { SESSION_COOKIE, verifySessionToken } from '@/lib/session';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,8 +18,7 @@ export default async function AdminLayout({
   children: React.ReactNode;
 }) {
   const cookieStore = await cookies();
-  const authCookie = cookieStore.get('admin_session');
-  const isAuthenticated = authCookie?.value === 'authenticated';
+  const isAuthenticated = await verifySessionToken(cookieStore.get(SESSION_COOKIE)?.value);
 
   if (!isAuthenticated) {
     return <LoginForm />;

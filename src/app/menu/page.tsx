@@ -1,7 +1,5 @@
 import MenuAccordion from '@/components/menu/MenuAccordion';
-import connectToDatabase from '@/lib/mongodb';
-import { Category } from '@/models/Category';
-import { Product } from '@/models/Product';
+import { getMenuTree } from '@/lib/menu';
 
 // Statik önbellek (cache) aktif. Yönetim paneli güncellediğinde API üzerinden cache temizlenecek.
 
@@ -10,42 +8,13 @@ export const metadata = {
   description: 'Emmoğlu menü, lezzetlerimizi keşfedin.',
 };
 
-async function getMenuData() {
+export default async function MenuPage() {
+  let menuData: Awaited<ReturnType<typeof getMenuTree>> = [];
   try {
-    await connectToDatabase();
-    
-    // Kategorileri sırasına göre getir
-    const categories = await Category.find({}).sort({ order: 1 }).lean();
-    
-    // Her kategori için ürünleri çek
-    const menuData = await Promise.all(
-      categories.map(async (cat: any) => {
-        const products = await Product.find({ category: cat._id }).sort({ order: 1 }).lean();
-        return {
-          id: cat._id.toString(),
-          category: cat.name,
-          image: cat.image,
-          order: cat.order,
-          items: products.map((p: any) => ({
-            id: p._id.toString(),
-            title: p.title,
-            price: p.price,
-            description: p.description,
-            image: p.image,
-            order: p.order,
-          })),
-        };
-      })
-    );
-    return menuData;
+    menuData = await getMenuTree();
   } catch (error) {
     console.error('Menü çekilirken hata:', error);
-    return [];
   }
-}
-
-export default async function MenuPage() {
-  const menuData = await getMenuData();
 
   return (
     <div className="bg-black md:bg-gray-50 min-h-screen pb-20">

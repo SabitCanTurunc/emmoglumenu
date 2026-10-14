@@ -19,6 +19,21 @@ if (!cached) {
   cached = (global as any).mongoose = { conn: null, promise: null };
 }
 
+// Eski şemadaki `name` tekil indeksi, aynı isimli alt kategorileri engelliyordu.
+// Kategori koleksiyonunun indekslerini yeni şemayla bir kez senkronize ederiz.
+let indexesSynced = false;
+async function ensureIndexes() {
+  if (indexesSynced) return;
+  indexesSynced = true;
+  try {
+    const { Category } = await import('@/models/Category');
+    await Category.syncIndexes();
+  } catch (e) {
+    indexesSynced = false;
+    console.error('Kategori indeksleri senkronize edilemedi:', e);
+  }
+}
+
 async function connectToDatabase() {
   if (cached.conn) {
     return cached.conn;
@@ -32,6 +47,7 @@ async function connectToDatabase() {
 
   try {
     cached.conn = await cached.promise;
+    await ensureIndexes();
   } catch (e) {
     cached.promise = null;
     throw e;
