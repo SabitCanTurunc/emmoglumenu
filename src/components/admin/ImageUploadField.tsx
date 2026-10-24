@@ -2,6 +2,7 @@
 
 import { useRef, useState } from 'react';
 import { Upload } from 'lucide-react';
+import { compressImage } from '@/lib/compressImage';
 
 interface ImageUploadFieldProps {
   label: string;
@@ -29,21 +30,31 @@ export default function ImageUploadField({
   };
 
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-
-    if (file.size > 5 * 1024 * 1024) {
-      alert("Dosya boyutu 5 MB'dan küçük olmalıdır. Lütfen daha küçük bir görsel seçin.");
-      e.target.value = '';
-      return;
-    }
+    const selected = e.target.files?.[0];
+    if (!selected) return;
 
     setUploading(true);
-    const formData = new FormData();
-    formData.append('file', file);
-    formData.append('type', type);
 
     try {
+      // Büyük telefon fotoğrafları da seçilebilsin diye boyut kontrolü sıkıştırmadan sonra yapılır.
+      let file = selected;
+      try {
+        file = await compressImage(selected);
+      } catch (err) {
+        // Tarayıcının çözemediği türler (ör. Chrome'da HEIC) orijinal hâliyle denenir.
+        console.error('Görsel sıkıştırılamadı:', err);
+      }
+
+      // Vercel istek gövdesini 4,5 MB ile sınırlar.
+      if (file.size > 4 * 1024 * 1024) {
+        alert("Görsel 4 MB'dan büyük ve küçültülemedi. Lütfen JPG veya PNG formatında bir görsel seçin.");
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('type', type);
+
       const res = await fetch('/api/upload', { method: 'POST', body: formData });
       const data = await res.json();
       if (data.url) onChange(data.url);
