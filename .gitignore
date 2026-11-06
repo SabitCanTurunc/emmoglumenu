@@ -41,4 +41,6 @@ yarn-error.log*
 next-env.d.ts
 emmoglumenu*.html
 parse-menu.js
+backup/
+
 
