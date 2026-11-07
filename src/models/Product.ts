@@ -5,6 +5,7 @@ export interface IProduct extends Document {
   price: string;
   description: string;
   image: string;
+  cloudinaryImage?: string;
   category: mongoose.Types.ObjectId;
   order: number;
   isActive: boolean;
@@ -25,6 +26,10 @@ const ProductSchema: Schema = new Schema(
       default: '',
     },
     image: {
+      type: String,
+      default: '',
+    },
+    cloudinaryImage: {
       type: String,
       default: '',
     },

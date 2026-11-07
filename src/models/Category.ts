@@ -3,6 +3,7 @@ import mongoose, { Schema, Document, Model } from 'mongoose';
 export interface ICategory extends Document {
   name: string;
   image: string;
+  cloudinaryImage?: string;
   order: number;
   // null = ana kategori, dolu = alt kategori (en fazla 2 seviye)
   parent: mongoose.Types.ObjectId | null;
@@ -17,6 +18,10 @@ const CategorySchema: Schema = new Schema(
       trim: true,
     },
     image: {
+      type: String,
+      default: '',
+    },
+    cloudinaryImage: {
       type: String,
       default: '',
     },

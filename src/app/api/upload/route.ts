@@ -1,21 +1,8 @@
 import { NextResponse } from 'next/server';
-import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { PutObjectCommand } from '@aws-sdk/client-s3';
+import { getR2Client, getR2Bucket } from '@/lib/r2';
 import path from 'path';
 import crypto from 'crypto';
-
-const accountId = process.env.R2_ACCOUNT_ID || '1e13166db0d2d879e56c328a0649f691';
-const accessKeyId = process.env.R2_ACCESS_KEY_ID || '471a360ec817989cff7df4c29570885f';
-const secretAccessKey = process.env.R2_SECRET_ACCESS_KEY || 'e52d10dbbe1c07e40095206a72cd1a3c4b99ec833b84ef9a188e58b3927d3b73';
-const bucket = process.env.R2_BUCKET_NAME || 'emmoglu-menu';
-
-const s3 = new S3Client({
-  region: 'auto',
-  endpoint: `https://${accountId}.r2.cloudflarestorage.com`,
-  credentials: {
-    accessKeyId,
-    secretAccessKey,
-  },
-});
 
 export async function POST(request: Request) {
   try {
@@ -48,21 +35,20 @@ export async function POST(request: Request) {
     const uniqueName = `${Date.now()}-${crypto.randomBytes(6).toString('hex')}${ext}`;
     const key = `${folder}/${uniqueName}`;
 
-    await s3.send(
+    await getR2Client().send(
       new PutObjectCommand({
-        Bucket: bucket,
+        Bucket: getR2Bucket(),
         Key: key,
         Body: buffer,
         ContentType: file.type || 'image/jpeg',
       })
     );
 
-    // Kendi güvenli Image Proxy endpoint'imiz üzerinden döndürür
     const publicUrl = `/api/images/${key}`;
 
     return NextResponse.json({ url: publicUrl });
-  } catch (error) {
-    console.error('R2 Upload Error:', error);
+  } catch (error: any) {
+    console.error('[/api/upload] R2 upload error:', error?.message);
     return NextResponse.json({ error: 'Upload failed' }, { status: 500 });
   }
 }
