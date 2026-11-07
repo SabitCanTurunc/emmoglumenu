@@ -1,12 +1,17 @@
 import { NextResponse } from 'next/server';
 import { S3Client, GetObjectCommand } from '@aws-sdk/client-s3';
 
+const accountId = process.env.R2_ACCOUNT_ID || '1e13166db0d2d879e56c328a0649f691';
+const accessKeyId = process.env.R2_ACCESS_KEY_ID || '471a360ec817989cff7df4c29570885f';
+const secretAccessKey = process.env.R2_SECRET_ACCESS_KEY || 'e52d10dbbe1c07e40095206a72cd1a3c4b99ec833b84ef9a188e58b3927d3b73';
+const bucket = process.env.R2_BUCKET_NAME || 'emmoglu-menu';
+
 const s3 = new S3Client({
   region: 'auto',
-  endpoint: `https://${process.env.R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
+  endpoint: `https://${accountId}.r2.cloudflarestorage.com`,
   credentials: {
-    accessKeyId: process.env.R2_ACCESS_KEY_ID || '',
-    secretAccessKey: process.env.R2_SECRET_ACCESS_KEY || '',
+    accessKeyId,
+    secretAccessKey,
   },
 });
 
@@ -17,8 +22,6 @@ export async function GET(
   try {
     const { path: pathSegments } = await params;
     const key = pathSegments.join('/');
-
-    const bucket = process.env.R2_BUCKET_NAME || 'emmoglu-menu';
 
     const command = new GetObjectCommand({
       Bucket: bucket,
