@@ -18,15 +18,17 @@ export async function GET(
     const { path: pathSegments } = await params;
     const key = pathSegments.join('/');
 
+    const bucket = process.env.R2_BUCKET_NAME || 'emmoglu-menu';
+
     const command = new GetObjectCommand({
-      Bucket: process.env.R2_BUCKET_NAME || 'emmoglu-menu',
+      Bucket: bucket,
       Key: key,
     });
 
     const data = await s3.send(command);
 
     if (!data.Body) {
-      return new NextResponse('Image not found', { status: 404 });
+      return new NextResponse('Empty body', { status: 404 });
     }
 
     const contentType = data.ContentType || 'image/jpeg';
@@ -40,7 +42,10 @@ export async function GET(
       },
     });
   } catch (error: any) {
-    return new NextResponse('Image not found', { status: 404 });
+    console.error('R2 Image Fetch Error:', error);
+    return new NextResponse(`Error: ${error?.message || error}`, {
+      status: 502,
+      headers: { 'Content-Type': 'text/plain' },
+    });
   }
 }
-
